@@ -13,7 +13,7 @@
         $reportPath = "user_path_new/";
         $reportPath1 = "user_path_new/payment/";
 //        $mon = array("Aug", "Sep", "Oct");
-        $mon = array("Oct");
+        $mon = array("Sep");
         $condition = array("https://buy.religare", "https://www.religare", "policybazaar", "http://buy.religare", "http://www.religare");
 
         $cookieID1 = array();
