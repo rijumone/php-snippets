@@ -7,13 +7,15 @@
     </head>
     <body>
         <?php
+        //echo phpinfo();exit;
+        // echo "<pre>";print_r($_SERVER);exit;
         ini_set("memory_limit", -1);
         ini_set('max_execution_time', 100000);
         ini_set('display_errors', 1);
         $reportPath = "user_path_new/";
         $reportPath1 = "user_path_new/payment/";
-       // $mon = array("Aug", "Sep", "Oct");
-        $mon = array("Aug");
+        $mon = array("Aug", "Sep", "Oct");
+        // $mon = array("Aug");
         $condition = array("https://buy.religare", "https://www.religare", "policybazaar", "http://buy.religare", "http://www.religare");
 
         $cookieID1 = array();
@@ -37,14 +39,16 @@
                 foreach ($array1 as $ts) {
                     $count = 0;
                     // $file = $reportPath1 . $mon[$j] . "/analytics_" . ($i) . "_" . $mon[$j] . "_" . $ts . ".json";
-                    $file = $reportPath . $mon[$j] . "/analytics_" . ($i) . "_" . $mon[$j] . "_" . $ts . ".json";
+                    $file = $_SERVER['DOCUMENT_ROOT'] . '/Kitchen/php-snippets/ctr/' . $reportPath . $mon[$j] . "/analytics_" . ($i) . "_" . $mon[$j] . "_" . $ts . ".json";
                     // echo $file."<br>";
                     if (file_exists($file)) {
                         $string = file_get_contents($file);
+                        // echo $string. "<br>";
                         if (strlen($string) > 0) {
                             $json = json_decode($string, true)["data"];
-                            print_r($json);
+                            // print_r($json);
                             if (sizeof($json) > 0) {
+                                // print_r($json);
                                 foreach ($json as $key => $value) {
                                     foreach ($value["flow"] as $key1 => $value1) {
 // echo "<pre>";print_r($value);
@@ -53,7 +57,11 @@
                                                 $count+=1;
                                                 array_push($cookieID, $value1["cookieID"]);
                                                 // array_push($sessionID, $value1["sessionID"]);
-                                                array_push($createdAt, $value1["createdAt"]);
+                                                $Date = new DateTime($value1["createdAt"]); //create dateTime object
+                                                $Date->setTimezone(new DateTimeZone('Asia/Kolkata')); //set the timezone
+
+
+                                                array_push($createdAt, $Date->format('Y-m-d H:i:s'));
                                                 array_push($visitedURL, $value1["visitedURL"]);
                                                 array_push($baseURL, $value1["baseURL"]);
                                             }
@@ -74,13 +82,13 @@
                         }
                         // echo sizeof($cookieID)."<br>";
                     }
-                     echo "Entries on $i-$mon[$j] at $ts hours are :".$count."<br>";
+                    echo "Entries on $i-$mon[$j] at $ts hours are :" . $count . "<br>";
                 }
             }
 
             echo "Inserting " . sizeof($cookieID) . " datas into DB<br>";
-            $mysql = mysql_connect("localhost", "root", "");
-            mysql_select_db("customer_path_new");
+            $mysql = mysqli_connect("localhost", "root", "root");
+            mysqli_select_db($mysql, "customer_path_new");
 
             $customer_path_table_create = "CREATE TABLE IF NOT EXISTS customer_path_" . $mon[$j] . " ( si int(11) NOT NULL AUTO_INCREMENT, cookie_id varchar(1000) NOT NULL, url varchar(1000) NOT NULL, baseurl varchar(1000) NOT NULL, ts timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, PRIMARY KEY (si))";
 
@@ -91,28 +99,32 @@
 
             $payment_table_create = "CREATE TABLE IF NOT EXISTS payment_" . $mon[$j] . " ( si int(11) NOT NULL AUTO_INCREMENT, cookie_id varchar(1000) NOT NULL, policy_id varchar(1000) NOT NULL, transaction_ref_num varchar(1000) NOT NULL, uw_dicision varchar(1000) NOT NULL, policy_num varchar(1000) NOT NULL,ts timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,PRIMARY KEY (si))";
 
-            mysql_query($customer_path_table_create, $mysql);
-            mysql_query($pb_table_create, $mysql);
-            mysql_query($rel_table_create, $mysql);
-            mysql_query($payment_table_create, $mysql);
+            mysqli_query($mysql, $customer_path_table_create);
+            mysqli_query($mysql, $pb_table_create);
+            mysqli_query($mysql, $rel_table_create);
+            mysqli_query($mysql, $payment_table_create);
 
-            foreach ($cookieID as $key => $value) {
-                $vURL = str_replace("\\", "", $visitedURL[$key]);
-                $vURL = str_replace("'", "", $vURL);
-              
-                $bURL = str_replace("\\", "", $baseURL[$key]);
-                $bURL = str_replace("'", "", $bURL);
-              
-                $mysqlQuery = "insert into customer_path_" . $mon[$j] . "(cookie_id,url,baseurl,ts) values ('" . $value . "','" . $vURL . "','" . $bURL . "','" . $createdAt[$key] . "')";
-                // echo $mysqlQuery;//exit;
-                     $ins = mysql_query($mysqlQuery, $mysql);
-           if (!$ins) {
-                    echo $mysqlQuery . "<br>";
-                    die('1.Could not enter data: ' . mysql_error());
+            if ($mon[$j] != "Aug" && $mon[$j] != "Sep" && $mon[$j] != "Oct") {
+
+
+                foreach ($cookieID as $key => $value) {
+                    $vURL = str_replace("\\", "", $visitedURL[$key]);
+                    $vURL = str_replace("'", "", $vURL);
+
+                    $bURL = str_replace("\\", "", $baseURL[$key]);
+                    $bURL = str_replace("'", "", $bURL);
+
+                    $mysqlQuery = "insert into customer_path_" . $mon[$j] . "(cookie_id,url,baseurl,ts) values ('" . $value . "','" . $vURL . "','" . $bURL . "','" . $createdAt[$key] . "')";
+                    // echo $mysqlQuery;//exit;
+                    $ins = mysqli_query($mysql, $mysqlQuery);
+                    if (!$ins) {
+                        echo $mysqlQuery . "<br>";
+                        die('1.Could not enter data: ' . mysqli_error($mysql));
+                    }
+
+                    echo "$key : Entered data successfully<br>";
+                    echo ".<br>";
                 }
-
-                // echo "$key : Entered data successfully<br>";
-                echo ".<br>";
             }
 
             /*
@@ -128,37 +140,42 @@
             /*
               foreach ($cookieID1 as $key => $value) {
               $mysqlQuery = "insert into payment_" . $mon[$j] . "(cookie_id, policy_id, transaction_ref_num, uw_dicision, policy_num, ts) values ('" . $cookieID1[$key] . "','" . $policyId1[$key] . "','" . $transactionRefNum1[$key] . "','" . $policyNum1[$key] . "','" . $uwDicision1[$key] . "','" . $createdAt1[$key] . "')";
-              $ins = mysql_query($mysqlQuery, $mysql);
+              $ins = mysqli_query($mysql, $mysqlQuery);
               if (!$ins) {
               echo $mysqlQuery . "<br>";
-              die('1.Could not enter data: ' . mysql_error());
+              die('1.Could not enter data: ' . mysqli_error());
               }
 
               // echo "$key : Entered data successfully<br>";
               echo ".<br>";
               }
              */
+
+      if ($mon[$j] == "Oct") {        
             $sheet2_PBCookieIdQuery = "SELECT * FROM customer_path_" . $mon[$j] . " where URL like '%policybazaar%'";
-            $rows = mysql_query($sheet2_PBCookieIdQuery, $mysql);
-            while ($row = mysql_fetch_array($rows, MYSQL_ASSOC)) {
-                $sql = "insert into pb_" . $mon[$j] . "(cookie_id,url,baseurl,ts) values('" . $row['cookie_id'] . "','" . $row['url']. "','" . $row['burl'] . "','" . $row['ts'] . "')";
-                $ins = mysql_query($sql, $mysql);
+            // echo $sheet2_PBCookieIdQuery;exit;
+            $rows = mysqli_query($mysql, $sheet2_PBCookieIdQuery);
+            $row = mysqli_fetch_array($rows, MYSQLI_ASSOC);
+            // echo "<pre>";var_dump($row);exit;
+            while ($row = mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
+                $sql = "insert into pb_" . $mon[$j] . "(cookie_id,url,baseurl,ts) values('" . $row['cookie_id'] . "','" . $row['url'] . "','" . $row['baseurl'] . "','" . $row['ts'] . "')";
+                $ins = mysqli_query($mysql, $sql);
                 if (!$ins) {
-                    die('2.Could not enter data: ' . mysql_error());
+                    die('2.Could not enter data: ' . mysqli_error($mysql));
                 }
             }
 
             $sheet2_RELCookieIdQuery = "SELECT * FROM customer_path_" . $mon[$j] . " where URL like '%www.religare%'";
-            $rows = mysql_query($sheet2_RELCookieIdQuery, $mysql);
-            while ($row = mysql_fetch_array($rows, MYSQL_ASSOC)) {
-                $sql = "insert into rel_" . $mon[$j] . "(cookie_id,url,baseurl,ts) values('" . $row['cookie_id'] . "','" . $row['url'] . "','" . $row['burl']. "','" . $row['ts'] . "')";
-                $ins = mysql_query($sql, $mysql);
+            $rows = mysqli_query($mysql, $sheet2_RELCookieIdQuery);
+            while ($row = mysqli_fetch_array($rows, MYSQLI_ASSOC)) {
+                $sql = "insert into rel_" . $mon[$j] . "(cookie_id,url,baseurl,ts) values('" . $row['cookie_id'] . "','" . $row['url'] . "','" . $row['baseurl'] . "','" . $row['ts'] . "')";
+                $ins = mysqli_query($mysql, $sql);
                 if (!$ins) {
-                    die('3.Could not enter data: ' . mysql_error());
+                    die('3.Could not enter data: ' . mysqli_error($mysql));
                 }
             }
-
-            mysql_close($mysql);
+}
+            mysqli_close($mysql);
         }
         ?>
     </body>
