@@ -4,16 +4,16 @@ ini_set('max_execution_time', 10000000);
 
 $URL = "analytics.religarehealthinsurance.com/user/path";
 $URL1 = "analytics.religarehealthinsurance.com/user/payment";
-$reportPath = "user_path_new/";
-$reportPath1 = "user_path_new/payment/";
+$reportPath = "user_path_new1/";
+$reportPath1 = "user_path_new1/payment/";
 
 $array = array("startDate" => "", "endDate" => "");
 
-$mon = array("Aug", "Sep", "Oct");
+$mon = array("Oct");
 echo "<pre>";
 $timeList = array("06", "12", "18", "24");
 for ($j = 0; $j < sizeof($mon); $j++) {
-    for ($i = 1; $i < 32; $i++) {
+    for ($i = 26; $i < 32; $i++) {
         for ($k = 0; $k < sizeof($timeList); $k++) {
             if ($k == 0) {
                 $array["startDate"] = "Sun " . $mon[$j] . " " . $i . " 2016 00:00:00 GMT+0530 (India Standard Time)";
