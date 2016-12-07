@@ -18,7 +18,7 @@ $rows = $temp[0];
 $columns = $temp[1];
 $arr1 = array();
 for ($i = 0; $i < $rows; $i++) {
-    $line = fgets($f);
+    $line = trim(fgets($f));
     $temp = explode(" ", $line);
     $arr1[] = $temp;
 }
@@ -41,7 +41,7 @@ for ($i = 0; $i < $rows; $i++) {
         $arr2[$j][$i] = $arr1[$i][$j];
     }
 }
-print_r($arr2);
+// print_r($arr2);
 for ($i = 0; $i < count($arr2); $i++) {
     for ($j = 0; $j < count($arr2[$i]); $j++) {
         echo $arr2[$i][$j];
