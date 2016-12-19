@@ -1,0 +1,19 @@
+<h1></h1>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.9/angular.js"></script>
+<script>
+for(var i = 0 ; i < 10 ; i ++){
+	console.log(getFactorial(i));
+	console.log("-------------")
+}
+	function getFactorial(n){
+		// console.log('n');
+		// console.log(n);
+		var factorial = 1;
+		for(var i = 1 ; i <= n ; i++){
+			factorial  = factorial * i;
+			// console.log('factorial');
+			// console.log(factorial);
+		}
+		return factorial;
+	}
+</script>
