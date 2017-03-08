@@ -15,31 +15,45 @@
   2
 
  */
-
-// $f = fopen('php://stdin', 'r');
+ $temp = array(3,0,8,0,0,4);
+ $last = 0;
 $f = fopen('biased-chandan.txt', 'r');
 
 $N = trim(fgets($f));
 $sum = 0;
 
-$rating = array();
+$temp = array();
 
 for ($i = 0; $i < $N; $i++) {
-
-    array_push($rating, trim(fgets($f)));
+    $temp[] = trim(fgets($f));
 }
-// unset($rating[1504]);
+// $N=6;
+$sum = 0;
+ for($i = 0; $i < $N; $i++){
+    if($temp[$i] == 0){
+      if($last >= 0){
+        $sum -= $temp[$last];
+        unset($temp[$last]); 
+        unset($temp[$i]);
+        $last--;
+
+      }else{
+        unset($temp[$i]);
+        $last = $temp[$i+1];
+      }
+      
+    }else{
+      $sum += $temp[$i];
+      $last = $i;
+    }
+ }
+
+echo $sum;exit;
+// $f = fopen('php://stdin', 'r');
+unset($rating[1504]);
 // print_r($rating);
 for ($i = 0; $i < count($rating); $i++) {
-
-    if (!$rating[$i] && $i) {
-        // $sum += $rating[$i];
-        $delKey = $i;
-//        do{}
-        while (!$rating[$delKey - 1]) {
-            
-        }
-    }
+    
 }
 for ($i = 0; $i < count($rating); $i++) {
     $sum += $rating[$i];
