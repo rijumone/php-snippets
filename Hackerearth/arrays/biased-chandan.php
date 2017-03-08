@@ -27,14 +27,24 @@ $rating = array();
 for ($i = 0; $i < $N; $i++) {
 
     array_push($rating, trim(fgets($f)));
-    if ($rating[$i]) {
-        $sum += $rating[$i];
-    } else {
-        if ($i) {
-            $sum -= $rating[$i - 1];
+}
+// unset($rating[1504]);
+// print_r($rating);
+for ($i = 0; $i < count($rating); $i++) {
+
+    if (!$rating[$i] && $i) {
+        // $sum += $rating[$i];
+        $delKey = $i;
+//        do{}
+        while (!$rating[$delKey - 1]) {
+            
         }
     }
 }
+for ($i = 0; $i < count($rating); $i++) {
+    $sum += $rating[$i];
+}
+
 echo $sum;
 fclose($f);
 ?>
