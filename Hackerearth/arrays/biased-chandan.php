@@ -14,11 +14,10 @@
   Sample output :
   2
 
- */
+
 $temp = array(3, 0, 8, 0, 0, 4);
 $last = 0;
 
-/*
   $temp = array();
 
   for ($i = 0; $i < $N; $i++) {
@@ -89,7 +88,9 @@ $negativeSum = 0;
 // print_r($zeroKeys);
 foreach ($zeroKeys as $key => $val) {
     for ($i = 1; $i <= $val; $i++) {
+      // echo '$key: '. ($key - $i) . "\n";
         $negativeSum += $rating[$key - $i];
+        unset($rating[$key - $i]);
         // echo $rating[$key - $i]."\n";
     }
 }
@@ -106,11 +107,14 @@ foreach ($zeroKeys as $key => $val) {
 //         }*/
 //     }
 // }
-for ($i = 0; $i < count($rating); $i++) {
-    $sum += $rating[$i];
+// print_r($rating);
+foreach($rating as $key=>$val){
+    $sum += $val;
+    // echo '$sum: '. $sum . "\n";
 }
 
-echo $sum - $negativeSum;
+// echo $sum - $negativeSum;
+echo $sum;
 fclose($f);
 ?>
 
