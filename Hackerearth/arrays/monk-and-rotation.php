@@ -4,46 +4,48 @@
 /*
 
   Sample input :
-  3
   1
-  10
-  3
-  8 3 6
+  5 2
+  1 2 3 4 5
+
+  5 1 2 3 4
+
   5
-  4 5 1 2 3
 
   Sample output :
-  1
-  2
-  2
-
+  4 5 1 2 3
 
  */
-$f = fopen('php://stdin', 'r');
-// $f = fopen('speed_input.txt', 'r');
+// $f = fopen('php://stdin', 'r');
+$f = fopen('monk-and-rotation.txt', 'r');
 
-$N = trim(fgets($f));
-if (!$N) {
-    trim(fgets($f));
-}
+$T = trim(fgets($f));
 
-for ($i = 0; $i < $N; $i++) {
-    $nCars = trim(fgets($f));
-    $speedsArr = explode(" ", trim(fgets($f)));
-    $permissibleSpeed = 0;
-    $nTopCars = 0;
-    for ($j = 0; $j < $nCars; $j++) {
-        if (!$j) {
-            $permissibleSpeed = $speedsArr[$j];
-            $nTopCars++;
-        } else {
-            if ($speedsArr[$j] < $permissibleSpeed) {
-                $permissibleSpeed = $speedsArr[$j];
-                $nTopCars++;
+for ($k = 0; $k < $T; $k++) {
+
+    $temp = explode(" ", fgets($f));
+    $N = $temp[0];
+    
+    // echo "\n";
+    $nRotations = $temp[1];
+    // echo "\n";
+    $arr = explode(" ", trim(fgets($f)));
+    // print_r($arr);
+    $arr2 = array();
+    for ($i = 0; $i < $nRotations; $i++) {
+        for ($j = 0; $j < $N; $j++) {
+            if (!$j) {
+                $arr2[$j] = $arr[$N - 1];
+            } else {
+                $arr2[$j] = $arr[$j - 1];
             }
-        }  
+        }
+        $arr = $arr2;
     }
-    echo $nTopCars . "\n";
+    for ($i = 0; $i < $N; $i++) {
+        echo $arr[$i] . " ";
+    }
+    echo "\n";
 }
 
 fclose($f);
