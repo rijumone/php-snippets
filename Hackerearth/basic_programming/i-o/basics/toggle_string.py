@@ -27,4 +27,20 @@ caseDict = {
 	'z' : 'Z',
 }
 
-print(caseDict)
+caseDictRev = {}
+
+for key,value in caseDict.iteritems():
+	caseDictRev[value]=key
+
+caseDict.update(caseDictRev)
+
+# print(caseDict)
+
+string = raw_input()
+
+returnString = ""
+
+for k in string:
+	returnString += caseDict[k]
+
+print(returnString)
