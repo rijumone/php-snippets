@@ -28,11 +28,11 @@ if beginMultiple == l or endMultiple == r : # both inclusive
 
 
 
-print(beginDivisor)
-print(endDivisor)
-print(beginMultiple)
-print(endMultiple)
-print(count)
+# print(beginDivisor)
+# print(endDivisor)
+# print(beginMultiple)
+# print(endMultiple)
+# print(count)
 
 # print((r/k)-(l/k))
 
