@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+   
+   <head>
+      <script src = "scripts/angular.min.js"></script>
+   </head>
+   
+   <body ng-app = "myapp">
+      
+      <div ng-controller = "HelloController" >
+         <h2>Welcome {{helloTo.title}} to the world of Tutorialspoint!</h2>
+      </div>
+      checking ng-bind and ng-model
+      <input type="text" data-ng-model="foo">
+      <p data-ng-bind="foo"></p>
+      
+<span data-ng-init="users = [{handle:'cross',rep:94634},{handle:'jewels',rep:87435}]"></span>
+<ul>
+<li data-ng-repeat="user in users | orderBy:'rep'">{{ user.handle + '; rep: ' + user.rep }}</li>
+</ul>
+<div data-ng-controller="userController">
+	<p data-ng-bind="user.busted() | currency:'&#8377;'"></p>
+</div>
+      <script>
+         var mainApp = angular.module("myapp", []);         
+         	mainApp.controller("HelloController", function($scope) {
+            	$scope.helloTo = {};
+            	$scope.helloTo.title = "AngularJS";
+         	});
+         	mainApp.controller("userController", function($scope) {
+            		$scope.user = {
+	         		pursuits: 45,
+	         		evaded: 41,
+	         		busted: function(){
+	         			return $scope.user.pursuits - $scope.user.evaded;
+	         		},
+	         	};
+         	});
+
+         function userController($scope){
+         
+         }
+
+      </script>
+      
+   </body>
+</html>
