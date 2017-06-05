@@ -1,0 +1,15 @@
+<body data-ng-app="MyApp" data-ng-controller="LoginCtrl">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="node_modules/angularjs-social-login/angularjs-social-login.js"></script>
+	<!-- <button ng-click="authenticate('facebook')">Sign in with Facebook</button> -->
+	<button data-ng-click="display()">foo</button>
+	<script type="text/javascript">
+	var MyApp  = angular.module('MyApp',[]);
+	MyApp.controller("LoginCtrl",function($scope){
+		$scope.message = "fo";
+		$scope.display = function(){
+			alert($scope.message);
+		}
+	})
+	</script>
+</body>
