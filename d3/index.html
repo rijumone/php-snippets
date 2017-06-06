@@ -1,0 +1,58 @@
+<style type="text/css">
+	body: {
+		/*background-color: black;
+		color: white;*/
+	}
+</style>
+<p>1</p>
+<p>2</p>
+<p>3</p>
+<p>4</p>
+<p>5</p>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script type="text/javascript">
+
+var p = d3.select("body")
+  .selectAll("p")
+  .data([4, 8, 15, 16, 23, 42])
+    .text(function(d) { return d; });
+    // Enter…
+p.enter().append("p")
+    .text(function(d) { return d; });
+
+// Exit…
+p.data([4, 8, 23, 42], function(d) { return(d); }).exit().remove();
+
+    /*
+d3.selectAll("circle").transition()
+    .duration(750)
+    .delay(function(d, i) { return i * 10; })
+    .attr("r", function(d) { return Math.sqrt(d * scale); });
+
+/*d3.select("body").transition()
+    .style("background-color", "black")
+    .style("color", "white")
+    ;
+
+/*
+d3.select("body")
+  .selectAll("p")
+  .data([4, 8, 15, 16, 23, 42])
+  .enter().append("p")
+    .text(function(d) { return "I’m number " + d + "!"; });
+
+/*	
+	d3.selectAll("p").style("color", function() {
+	  return "hsl(" + Math.random() * 360 + ",100%,50%)";
+	});
+
+	d3.selectAll("p").style("color", function(d, i) {
+	  return i % 2 ? "#fff" : "#eee";
+	});
+*/
+
+
+
+
+</script>
