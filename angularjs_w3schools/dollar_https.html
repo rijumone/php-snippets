@@ -37,18 +37,21 @@
             </tr>
          </table>
       </div>
-      
+<script src = "scripts/angular.min.js"></script>      
       <script>
-         function studentController($scope,$http) {
-            var url = "data.json";
+      var myapp =  angular.module("mainApp",[]).controller("studentController",function($scope,$http){
+      		var url = "data.json";
 
-            $http.get(url).then( function(response) {
-               $scope.students = response.data;
-            });
-         }
+      		$http.get(url).then( function(response) {
+      			$scope.students = response.data;
+      		});
+      	});
+         // function studentController($scope,$http) {
+
+         // }
       </script>
       
-      <script src = "scripts/angular.min.js"></script>
+      
       
    </body>
 </html>
