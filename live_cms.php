@@ -8,12 +8,12 @@
 </style>
 <div class="container-fluid" id="main">
 	<div class="row">
-		<div class="col-sm-6">
-			<div class="editable" data-parent-element="h4">
+		<div class="col-sm-6" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<div class="editable" data-parent-element="h4" draggable="true" ondragstart="drag(event)" >
 				<?php if($editFlag) { ?><a class="" href="javascript:void(0)" onclick="convertToEdit($(this))"><i class="fa fa-pencil"></i></a><?php } ?>
 				<h4>heading</h4>
 			</div>
-			<div class="editable" data-parent-element="h5">
+			<div class="editable" data-parent-element="h5" draggable="true" ondragstart="drag(event)" >
 				<?php if($editFlag) { ?><a class="" href="javascript:void(0)" onclick="convertToEdit($(this))"><i class="fa fa-pencil"></i></a><?php } ?>
 				<h5>sub-heading</h5>
 			</div>
@@ -81,5 +81,19 @@
 
 	function saveData(){
 		console.log($("div#main").html());
+	}
+
+	function allowDrop(ev) {
+	    ev.preventDefault();
+	}
+
+	function drag(ev) {
+	    ev.dataTransfer.setData("text", ev.target.id);
+	}
+
+	function drop(ev) {
+	    ev.preventDefault();
+	    var data = ev.dataTransfer.getData("text");console.log(ev);
+	    ev.target.appendChild(document.getElementById(data));
 	}
 </script>
