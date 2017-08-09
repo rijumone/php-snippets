@@ -1,10 +1,10 @@
 +-------------------------------------+
 | do                          | done? |
 |-------------------------------------|
-| SOLID                       |   N   |
+| SOLID                       |  N/2  | ID : anurag
 | OOP                         |   Y   |
 | laravel                     |   N   |
-| laravel interview questions |   N   |
-| php interview questions     |   N   |
-| PHPunit                     |   N   |
+| laravel interview questions |   N   | read in morning
+| php interview questions     |   N   | read in morning
+| PHPUnit                     |   N   | ask anurag to read
 +-------------------------------------+
