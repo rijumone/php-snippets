@@ -1,0 +1,10 @@
++-------------------------------------+
+| do                          | done? |
+|-------------------------------------|
+| SOLID                       |   N   |
+| OOP                         |   Y   |
+| laravel                     |   N   |
+| laravel interview questions |   N   |
+| php interview questions     |   N   |
+| PHPunit                     |   N   |
++-------------------------------------+
