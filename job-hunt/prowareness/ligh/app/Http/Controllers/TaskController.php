@@ -3,17 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-
 use App\Task;
-use App\Branch;
 use App\Repositories\TaskRepository;
+
 // use App\Repositories\BranchRepository;
 
-class TaskController extends Controller
-{
+class TaskController extends Controller {
+
     /**
      * The task repository instance.
      *
@@ -27,8 +25,7 @@ class TaskController extends Controller
      * @param  TaskRepository  $tasks
      * @return void
      */
-    public function __construct(TaskRepository $tasks)
-    {
+    public function __construct(TaskRepository $tasks) {
         $this->middleware('auth');
 
         $this->tasks = $tasks;
@@ -40,11 +37,9 @@ class TaskController extends Controller
      * @param  Request  $request
      * @return Response
      */
-    public function index(Request $request)
-    {
+    public function index(Request $request) {
         return view('tasks.index', [
             'tasks' => $this->tasks->forUser($request->user()),
-            'branches' => Branch::get(),
         ]);
     }
 
@@ -54,8 +49,7 @@ class TaskController extends Controller
      * @param  Request  $request
      * @return Response
      */
-    public function store(Request $request)
-    {
+    public function store(Request $request) {
         $this->validate($request, [
             'name' => 'required|max:255',
         ]);
@@ -74,12 +68,12 @@ class TaskController extends Controller
      * @param  Task  $task
      * @return Response
      */
-    public function destroy(Request $request, Task $task)
-    {
+    public function destroy(Request $request, Task $task) {
         $this->authorize('destroy', $task);
 
         $task->delete();
 
         return redirect('/tasks');
     }
+
 }

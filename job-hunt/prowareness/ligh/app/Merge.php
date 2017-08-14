@@ -5,14 +5,14 @@ namespace App;
 use App\User;
 use Illuminate\Database\Eloquent\Model;
 
-class Branch extends Model {
+class Merge extends Model {
 
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
-    protected $fillable = ['name'];
+    protected $fillable = ['status'];
 
     /**
      * The attributes that should be cast to native types.
@@ -21,10 +21,11 @@ class Branch extends Model {
      */
     protected $casts = [
         'user_id' => 'int',
+        'branch_id' => 'int',
     ];
 
     /**
-     * Get the user that owns the branch.
+     * Get the user that owns the merge.
      */
     public function user() {
         return $this->belongsTo(User::class);

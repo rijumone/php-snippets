@@ -39,7 +39,7 @@
 
             <!-- Current Tasks -->
             @if (count($tasks) > 0)
-            <?php dd($branches); ?>
+            <?php //dd($branches); ?>
                 <div class="panel panel-default">
                     <div class="panel-heading">
                         Current Tasks
