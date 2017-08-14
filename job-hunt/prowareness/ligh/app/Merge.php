@@ -12,7 +12,7 @@ class Merge extends Model {
      *
      * @var array
      */
-    protected $fillable = ['status'];
+    protected $fillable = ['status', 'branch_id'];
 
     /**
      * The attributes that should be cast to native types.
