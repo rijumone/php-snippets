@@ -97,7 +97,7 @@
                                                 {{ csrf_field() }}
                                                 {{ method_field('DELETE') }}
 
-                                                <button type="submit" id="delete-task-{{ $merge->id }}" class="btn btn-danger">
+                                                <button type="submit" id="delete-merge-{{ $merge->id }}" class="btn btn-danger">
                                                     <i class="fa fa-btn fa-trash"></i>Delete
                                                 </button>
                                             </form>

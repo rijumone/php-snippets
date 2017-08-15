@@ -40,11 +40,11 @@ class BasicTest extends TestCase {
 
         $this->actingAs($user)
                 ->visit('/merges')
-                ->see($mergeOne->name)
-                ->see($mergeTwo->name)
-                ->press('delete-task-' . $taskOne->id)
-                ->dontSee($taskOne->name)
-                ->see($taskTwo->name);
+                ->see($mergeOne->status)
+                ->see($mergeTwo->status)
+                ->press('delete-merge-' . $mergeOne->id)
+                ->dontSee($mergeOne->status)
+                ->see($mergeTwo->status);
     }
 
 }
