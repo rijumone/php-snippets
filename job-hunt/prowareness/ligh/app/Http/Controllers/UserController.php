@@ -41,7 +41,7 @@ class UserController extends Controller {
 
 			$request->session()->put('name', $guser['name']);
 			if ($user =User::where('email',$guser['email'])->first())
-			{ dd($user);
+			{ //dd($user);
                         //logged your user via auth login
 			}else{ echo "register"; dd($guser);
                         //register your user with response data
