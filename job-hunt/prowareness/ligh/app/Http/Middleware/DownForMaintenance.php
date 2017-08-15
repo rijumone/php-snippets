@@ -17,9 +17,9 @@ class DownForMaintenance
     public function handle($request, Closure $next)
     {
         
-        throw new HttpException(503);
-        if(false){
+        // throw new HttpException(503);
+        // if(false){
             return $next($request);
-        }
+        // }
     }
 }
