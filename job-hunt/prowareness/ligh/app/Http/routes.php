@@ -40,6 +40,7 @@ Route::group(['middleware' => ['web']], function () {
     Route::post('/merge', 'MergeController@store');
     Route::delete('/merge/{merge}', 'MergeController@destroy');
 
+    Route::get('glogin',array('as'=>'glogin','uses'=>'UserController@googleLogin')) ;
 
     Route::auth();
 });

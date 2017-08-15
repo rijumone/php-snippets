@@ -35,4 +35,11 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'google' => [
+        'app_name' => 'MergingApp',
+        'client_id' => '504257481627-pv9ie0i8j9acsh8hhlk2nkpjmo4m1qe7.apps.googleusercontent.com',
+        'client_secret' => 'o-CB_NkB7ID0UrbxB9bAM9aQ',
+        // 'api_key' => '',
+    ]
+
 ];

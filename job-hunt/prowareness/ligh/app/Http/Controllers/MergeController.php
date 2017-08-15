@@ -7,13 +7,20 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use App\Merge;
 use App\Branch;
-
-// use App\Repositories\MergeRepository;
+use App\Repositories\MergeRepository;
 
 class MergeController extends Controller {
 
-    public function __construct() {
+    /**
+     * The merge repository instance.
+     *
+     * @var MergeRepository
+     */
+    protected $merges;
+
+    public function __construct(MergeRepository $merges) {
         $this->middleware('auth');
+        $this->merges = $merges;
     }
 
     public function index(Request $request) {
@@ -23,7 +30,7 @@ class MergeController extends Controller {
             $branchIdGroupedArr[$branch->id] = $branch;
         }
         return view('merges.index', [
-            'merges' => Merge::get(),
+            'merges' => $this->merges->forUser($request->user()),
             'branches' => $branchIdGroupedArr,
         ]);
     }

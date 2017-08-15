@@ -8,7 +8,6 @@ use App\Http\Controllers\Controller;
 use App\Task;
 use App\Repositories\TaskRepository;
 
-// use App\Repositories\BranchRepository;
 
 class TaskController extends Controller {
 
