@@ -1,8 +1,9 @@
+<?php $statusArr = ['raised','resolved','inactive']; ?>
 @extends('layouts.app')
 
 @section('content')
     <div class="container">
-        <div class="col-sm-offset-2 col-sm-8">
+        <div class="col-sm-offset-1 col-sm-10">
             <div class="panel panel-default">
                 <div class="panel-heading">
                     New Merge
@@ -21,7 +22,7 @@
                             <label for="task-name" class="col-sm-3 control-label">Status</label>
 
                             <div class="col-sm-6">
-                                <select name="status" id="merge-status" class="form-control" value="{{ old('merge') }}">
+                                <select name="status" id="merge-status" class="form-control">
                                 	<option value="">select one</option>
                                 	<option>raised</option>
                                 	<option>resolved</option>
@@ -48,7 +49,7 @@
                         <!-- Add Merge Button -->
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-6">
-                                <button type="submit" class="btn btn-default">
+                                <button type="submit" name="add-merge-submit" class="btn btn-default">
                                     <i class="fa fa-btn fa-plus"></i>Add Merge
                                 </button>
                             </div>
@@ -76,11 +77,23 @@
                                 @foreach ($merges as $merge)
                                     <tr>
                                         <td class="table-text"><div>{{ $branches[$merge->branch_id]->name }}</div></td>
-                                        <td class="table-text"><div>{{ $merge->status }}</div></td>
+                                        <td class="table-text"><div>
+                                        <form action="/tasks" method="GET">
+                                        {{ csrf_field() }}
+                                        	<select class="form-control" onchange="$(this).parent().submit()">
+                                        	@foreach($statusArr as $status)
+	                                        	
+                                    			<option <?php if ($status==$merge->status) echo "selected"; ?>>{{ $status }}</option>
+	                                        	
+                                        	@endforeach
+
+                                        	</select>
+                                        	</form>
+                                        </div></td>
 
                                         <!-- Task Delete Button -->
                                         <td>
-                                            <form action="{{url('task/' . $merge->id)}}" method="POST">
+                                            <form action="{{url('merge/' . $merge->id)}}" method="POST">
                                                 {{ csrf_field() }}
                                                 {{ method_field('DELETE') }}
 

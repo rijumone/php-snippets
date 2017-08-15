@@ -42,4 +42,17 @@ class MergeController extends Controller {
         return redirect('/merges');
     }
 
+    /**
+     * Destroy the given merge
+     * @param Request $request
+     * @param Merge $merge
+     * @return Response
+     */
+
+    public function destroy(Request $request, Merge $merge){
+    	$this->authorize('destroy', $merge);
+    	$merge->delete();
+    	return redirect('/merges');
+    }
+
 }
