@@ -13,7 +13,7 @@ class CreateTeamsTable extends Migration
     public function up()
     {
         Schema::create('teams', function (Blueprint $table) {
-            $table->increments('identifier');
+            $table->increments('id');
             
             $table->string('name')->unique();
             $table->string('logoUri');

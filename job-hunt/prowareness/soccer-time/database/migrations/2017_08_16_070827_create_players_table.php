@@ -17,13 +17,15 @@ class CreatePlayersTable extends Migration
 
             $table->string('firstName');
             $table->string('lastName');
+            $table->string('imageUri');
+            $table->integer('teamId')->unsigned()->index();
 
             $table->timestamps();
 
 
-            $table->foreign('app_id')
+            $table->foreign('teamId')
                 ->references('id')
-                ->on('apps')
+                ->on('teams')
                 ->onDelete('cascade');
         });
     }
