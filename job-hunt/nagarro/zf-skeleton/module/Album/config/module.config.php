@@ -15,6 +15,7 @@ return [
             'album' => __DIR__ . '/../view',
         ],
     ],
+    /*
     'router' => [
         'routes' => [
             'album' => [
@@ -33,4 +34,5 @@ return [
             ],
         ],
     ],
+    */
 ];
