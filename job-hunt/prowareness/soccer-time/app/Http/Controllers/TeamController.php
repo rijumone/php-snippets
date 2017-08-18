@@ -38,6 +38,7 @@ class TeamController extends Controller {
 	/**
      * Fetch all players for given team
      * @param Request $request
+     * @param Team $team
      * @return View
      */
 

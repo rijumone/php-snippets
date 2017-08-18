@@ -25,7 +25,7 @@ class TeamTest extends TestCase
 
     public function test_users_can_view_players() {
         $this->visit('/team/1')
-                ->see('De Gea');
+                ->see('De Gea1');
     }
 
 }

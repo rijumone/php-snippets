@@ -28,7 +28,7 @@ use AuthenticatesAndRegistersUsers,
      *
      * @var string
      */
-    protected $redirectTo = '/tasks';
+    protected $redirectTo = '/merges';
 
     /**
      * Create a new authentication controller instance.
