@@ -25,3 +25,52 @@
 </div>
 <!--/container -->
 @endsection
+<script type="text/javascript">
+    
+var url = window.location.href;
+
+$(document).ready(function(){
+
+    if(url.indexOf("-filldetails") > -1  || url.indexOf("/assure.php") > -1 ) {
+        $(".maleIcon").trigger("click");
+        if($("#ValidFName").val() == ""){
+            $("#ValidFName").val("fName");  
+        } 
+        if($("#ValidLName").val() == ""){
+            $("#ValidLName").val("lName");  
+        } 
+        if($("#datepicker").val() == ""){
+            //$("#datepicker").val("18/06/1975"); 
+        }
+        if($("#NomineeName").val("")){
+            $("#NomineeName").val("nomineeName");   
+        }
+        if($("#nomineeRelation").val("0")){
+            $("#nomineeRelation").val("WIFE");  
+        }
+        if($("#ValidEmail").val("")){
+            $("#ValidEmail").val("foo@bar.com");
+        }
+        if($("#ValidAddressOne").val("")){
+            $("#ValidAddressOne").val("addr line 1");
+        }
+        if($("#ValidAddressTwo").val("")){
+            $("#ValidAddressTwo").val("addr line 2");
+        }
+        if($("#landmark").val("")){
+            $("#landmark").val("lndmrk");
+        }
+        if($("#ValidPinCode").val("")){
+            $("#ValidPinCode").val("110001");
+        }
+        $("#ValidPinCode").focus();
+        $(".nextBtn").focus();
+        //$(".nextBtn").trigger("click");
+    }else if(url.indexOf("proposalcp/renew/index-care") > -1) {
+        $("input#policynumber").val(10122713);
+        $("input#dob").val("01/01/1966");
+
+    }
+    
+});
+</script>

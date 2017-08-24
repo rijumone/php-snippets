@@ -14,7 +14,7 @@ class MergeRepository {
      * @return Collection
      */
     public function forUser(User $user) {
-        return Merge::where('user_id', $user->id)
+        return      $user->merges()
                         ->orderBy('created_at', 'desc')
                         ->get();
     }

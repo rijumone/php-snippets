@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use Mail;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -74,5 +75,13 @@ class TaskController extends Controller {
 
         return redirect('/tasks');
     }
+
+    public function sendMail(){
+        $name = 'Anurag';
+        Mail::send('email.welcome', ['name' => $name], function($m){
+            $m->to('anuragk1991@gmail.com')->subject('Successfully Registered');
+        });
+    }
+
 
 }

@@ -42,5 +42,7 @@ Route::group(['middleware' => ['web']], function () {
 
     Route::get('glogin',array('as'=>'glogin','uses'=>'UserController@googleLogin')) ;
 
+    Route::get('/sendmail', 'TaskController@sendMail');
+
     Route::auth();
 });
