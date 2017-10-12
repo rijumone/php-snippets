@@ -36,7 +36,7 @@
 1012,Everyday Care,006,4 Lac : Family Floater
 1012,Everyday Care,007,5 Lac : Individual
 1012,Everyday Care,008,5 Lac : Family Floater
-40001009,Explore Gold Ex US_Canada(Single),003,"Individual : USD 3,00,000"
+40001009,Explore Gold Ex US_Canada(Single),003,Individual : USD 300000
 1012,Everyday Care,013,15 Lac : Individual
 1012,Everyday Care,014,15 Lac : Family Floater
 1012,Everyday Care,015,20 Lac : Individual
@@ -71,22 +71,22 @@
 1016,NCB Super,011,10 Lacs : Individual
 1016,NCB Super,010,7 Lacs : Family Floater
 1016,NCB Super,009,7 Lacs : Individual
-40001009,Explore Gold Ex US_Canada(Single),004,"Individual : USD 5,00,000"
-40001001,Explore Asia,001,"Individual : USD 25,000"
-40001001,Explore Asia,003,"Individual : USD 1,00,000"
-40001002,Explore Africa,001,"Individual : USD 25,000"
-40001002,Explore Africa,002,"Individual : USD 50,000"
-40001002,Explore Africa,003,"Individual : USD 1,00,000"
-40001003,Explore Europe,001,"Individual : EURO 30,000"
-40001003,Explore Europe,002,"Individual : EURO 1,00,000"
-40001004,Explore Canada,001,"Individual : USD 50,000"
-40001004,Explore Canada,002,"Individual : USD 1,00,000"
-40001016,Explore Canada+(without sublimit),001,"Individual : USD 50,000"
-40001016,Explore Canada+(without sublimit),002,"Individual : USD 1,00,000"
-40001015,Explore Europe(without sublimit),002,"Individual : EURO 1,00,000"
-40001014,Explore Africa(without sublimit),001,"Individual : USD 25,000"
-40001014,Explore Africa(without sublimit),002,"Individual : USD 50,000"
-40001014,Explore Africa(without sublimit),003,"Individual : USD 1,00,000"
+40001009,Explore Gold Ex US_Canada(Single),004,Individual : USD 500000
+40001001,Explore Asia,001,Individual : USD 25000
+40001001,Explore Asia,003,Individual : USD 100000
+40001002,Explore Africa,001,Individual : USD 25000
+40001002,Explore Africa,002,Individual : USD 50000
+40001002,Explore Africa,003,Individual : USD 100000
+40001003,Explore Europe,001,Individual : EURO 30000
+40001003,Explore Europe,002,Individual : EURO 100000
+40001004,Explore Canada,001,Individual : USD 50000
+40001004,Explore Canada,002,Individual : USD 100000
+40001016,Explore Canada+(without sublimit),001,Individual : USD 50000
+40001016,Explore Canada+(without sublimit),002,Individual : USD 100000
+40001015,Explore Europe(without sublimit),002,Individual : EURO 100000
+40001014,Explore Africa(without sublimit),001,Individual : USD 25000
+40001014,Explore Africa(without sublimit),002,Individual : USD 50000
+40001014,Explore Africa(without sublimit),003,Individual : USD 100000
 10001103,CARE for Employees,001,2 Lacs : Individual
 10001103,CARE for Employees,002,2 Lacs : Family Floater
 10001103,CARE for Employees,003,3 Lacs : Individual
@@ -110,26 +110,26 @@
 10001103,CARE for Employees,021,60 Lacs : Individual
 10001103,CARE for Employees,022,60 Lacs : Family Floater
 20003001,Assure (Scheme for RHDFC),001,1 Year: Up to 10 Lac
-20003001,Assure (Scheme for RHDFC),003,"1 Year: 50,00,001 and above"
-20003001,Assure (Scheme for RHDFC),002,"1 Year: 10,00,001 to 50 Lac"
-40001013,Explore Asia(without sublimit),001,"Individual : USD 25,000"
-40001013,Explore Asia(without sublimit),002,"Individual : USD 50,000"
-40001013,Explore Asia(without sublimit),003,"Individual : USD 1,00,000"
-40001005,Explore Gold Ex US_Canada(Multi),001,"Individual : USD 50,000"
-40001005,Explore Gold Ex US_Canada(Multi),002,"Individual : USD 1,00,000"
-40001005,Explore Gold Ex US_Canada(Multi),003,"Individual : USD 3,00,000"
-40001005,Explore Gold Ex US_Canada(Multi),004,"Individual : USD 5,00,000"
-40001006,Explore Platinum Ex US_Canada(Multi),001,"Individual : USD 50,000"
-40001006,Explore Platinum Ex US_Canada(Multi),002,"Individual : USD 1,00,000"
-40001006,Explore Platinum Ex US_Canada(Multi),003,"Individual : USD 3,00,000"
-40001006,Explore Platinum Ex US_Canada(Multi),004,"Individual : USD 5,00,000"
-40001008,Explore Platinum_WW(Multi),001,"Individual : USD 50,000"
-40001008,Explore Platinum_WW(Multi),002,"Individual : USD 1,00,000"
-40001008,Explore Platinum_WW(Multi),003,"Individual : USD 3,00,000"
-40001008,Explore Platinum_WW(Multi),004,"Individual : USD 5,00,000"
-40001010,Explore Platinum Ex US_Canada(Single),001,"Individual : USD 50,000"
-40001010,Explore Platinum Ex US_Canada(Single),002,"Individual : USD 1,00,000"
-40001010,Explore Platinum Ex US_Canada(Single),003,"Individual : USD 3,00,000"
+20003001,Assure (Scheme for RHDFC),003,1 Year: 5000001 and above
+20003001,Assure (Scheme for RHDFC),002,1 Year: 1000001 to 50 Lac
+40001013,Explore Asia(without sublimit),001,Individual : USD 25000
+40001013,Explore Asia(without sublimit),002,Individual : USD 50000
+40001013,Explore Asia(without sublimit),003,Individual : USD 100000
+40001005,Explore Gold Ex US_Canada(Multi),001,Individual : USD 50000
+40001005,Explore Gold Ex US_Canada(Multi),002,Individual : USD 100000
+40001005,Explore Gold Ex US_Canada(Multi),003,Individual : USD 300000
+40001005,Explore Gold Ex US_Canada(Multi),004,Individual : USD 500000
+40001006,Explore Platinum Ex US_Canada(Multi),001,Individual : USD 50000
+40001006,Explore Platinum Ex US_Canada(Multi),002,Individual : USD 100000
+40001006,Explore Platinum Ex US_Canada(Multi),003,Individual : USD 300000
+40001006,Explore Platinum Ex US_Canada(Multi),004,Individual : USD 500000
+40001008,Explore Platinum_WW(Multi),001,Individual : USD 50000
+40001008,Explore Platinum_WW(Multi),002,Individual : USD 100000
+40001008,Explore Platinum_WW(Multi),003,Individual : USD 300000
+40001008,Explore Platinum_WW(Multi),004,Individual : USD 500000
+40001010,Explore Platinum Ex US_Canada(Single),001,Individual : USD 50000
+40001010,Explore Platinum Ex US_Canada(Single),002,Individual : USD 100000
+40001010,Explore Platinum Ex US_Canada(Single),003,Individual : USD 300000
 20001004,Assure 4,005,5 Lacs
 20001004,Assure 4,010,10 Lacs
 20001004,Assure 4,011,15 Lacs
@@ -208,103 +208,103 @@
 10003005,Group Care (IIB Scheme),004,4 Lac : Floater
 10003005,Group Care (IIB Scheme),003,4 Lac : Individual
 10003005,Group Care (IIB Scheme),002,2.5 Lac : Floater
-10003007,Group Care (Scheme for RSL),001,"Individual : 25,000"
-10003007,Group Care (Scheme for RSL),002,"Individual : 50,000"
+10003007,Group Care (Scheme for RSL),001,25000
+10003007,Group Care (Scheme for RSL),002,50000
 1012,Everyday Care,012,10 Lacs : Family Floater
 1012,Everyday Care,011,10 Lacs : Individual
 1012,Everyday Care,010,7 Lacs : Family Floater
 1012,Everyday Care,009,7 Lacs : Individual
-40001007,Explore Gold_WW(Multi),001,"Individual : USD 50,000"
-40001007,Explore Gold_WW(Multi),002,"Individual : USD 1,00,000"
-40001007,Explore Gold_WW(Multi),003,"Individual : USD 3,00,000"
-40001007,Explore Gold_WW(Multi),004,"Individual : USD 5,00,000"
-40001009,Explore Gold Ex US_Canada(Single),001,"Individual : USD 50,000"
-40001009,Explore Gold Ex US_Canada(Single),002,"Individual : USD 1,00,000"
+40001007,Explore Gold_WW(Multi),001,Individual : USD 50000
+40001007,Explore Gold_WW(Multi),002,Individual : USD 100000
+40001007,Explore Gold_WW(Multi),003,Individual : USD 300000
+40001007,Explore Gold_WW(Multi),004,Individual : USD 500000
+40001009,Explore Gold Ex US_Canada(Single),001,Individual : USD 50000
+40001009,Explore Gold Ex US_Canada(Single),002,Individual : USD 100000
 3016,Accidental Hospitalization,001,1 Lac
 3016,Accidental Hospitalization,002,5 Lacs
 3016,Accidental Hospitalization,003,10 Lacs
-30006002,Group Secure(IIB casa)2,001,"Individual : Rs. 40,00,000"
-30006002,Group Secure(IIB casa)2,002,"Individual : Rs. 60,00,000"
-30006002,Group Secure(IIB casa)2,003,"Individual : Rs. 80,00,000"
-10042001,Joy Tomorrow,001,"1 Year : 3,00,000"
-10042001,Joy Tomorrow,002,"1 Year : 3,00,000"
-10042001,Joy Tomorrow,003,"1 Year : 5,00,000"
-10042001,Joy Tomorrow,004,"1 Year : 5,00,000"
-10042001,Joy Tomorrow,005,"2 Years : 3,00,000"
-10042001,Joy Tomorrow,006,"2 Years : 3,00,000"
-10042001,Joy Tomorrow,007,"2 Years : 5,00,000"
-10042001,Joy Tomorrow,008,"2 Years : 5,00,000"
-10042001,Joy Tomorrow,009,"3 Years : 3,00,000"
-10042001,Joy Tomorrow,010,"3 Years : 3,00,000"
-10042001,Joy Tomorrow,011,"3 Years : 5,00,000"
-10042001,Joy Tomorrow,012,"3 Years : 5,00,000"
-10003016,Group Care (Sarvodaya),001,"Individual : Rs. 5,00,000"
-10003016,Group Care (Sarvodaya),002,"Floater : Rs. 5,00,000"
-10003016,Group Care (Sarvodaya),003,"Individual : Rs. 2,00,000"
-10003016,Group Care (Sarvodaya),004,"Floater : Rs. 2,00,000"
+30006002,Group Secure(IIB casa)2,001,Individual : Rs. 4000000
+30006002,Group Secure(IIB casa)2,002,Individual : Rs. 6000000
+30006002,Group Secure(IIB casa)2,003,Individual : Rs. 8000000
+10042001,Joy Tomorrow,001,300000
+10042001,Joy Tomorrow,002,300000
+10042001,Joy Tomorrow,003,500000
+10042001,Joy Tomorrow,004,500000
+10042001,Joy Tomorrow,005,300000
+10042001,Joy Tomorrow,006,300000
+10042001,Joy Tomorrow,007,500000
+10042001,Joy Tomorrow,008,500000
+10042001,Joy Tomorrow,009,300000
+10042001,Joy Tomorrow,010,300000
+10042001,Joy Tomorrow,011,500000
+10042001,Joy Tomorrow,012,500000
+10003016,Group Care (Sarvodaya),001,Individual : Rs. 500000
+10003016,Group Care (Sarvodaya),002,Floater : Rs. 500000
+10003016,Group Care (Sarvodaya),003,Individual : Rs. 200000
+10003016,Group Care (Sarvodaya),004,Floater : Rs. 200000
 2,,001,$7500
 1111,sfs,001,$1000
 1111,sfs,002,$5000
-1111,sfs,003,"$50,000"
-1111,sfs,004,"$1,00,000"
-1111,sfs,005,"$3,00,000"
-1111,sfs,006,"$5,00,000"
-1111,sfs,007,"$1,000,000"
-22,d,001,"$50,000"
-22,d,002,"$1,00,000"
-22,d,003,"$3,00,000"
-22,d,004,"$5,00,000"
-22,d,005,"$1,000,000"
-12001002,Care Freedom - 20 Percent Co-Pay,017,"Individual : Rs. 3,00,000 X Rs. 50,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,018,"Floater : Rs. 3,00,000 X Rs. 50,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,019,"Individual : Rs. 3,00,000 X Rs. 1,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,020,"Floater : Rs. 3,00,000 X Rs. 1,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,021,"Individual : Rs. 3,00,000 X Rs. 2,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,022,"Floater : Rs. 3,00,000 X Rs. 2,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,023,"Individual : Rs. 3,00,000 X Rs. 3,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,024,"Floater : Rs. 3,00,000 X Rs. 3,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,025,"Individual : Rs. 4,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,026,"Floater : Rs. 4,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,027,"Individual : Rs. 4,00,000 X Rs. 25,000---OPD 300"
-40001011,Explore Gold-WW (Single),001,"Individual : USD 50,000"
-40001011,Explore Gold-WW (Single),002,"Individual : USD 1,00,000"
-40001011,Explore Gold-WW (Single),003,"Individual : USD 3,00,000"
-40001011,Explore Gold-WW (Single),004,"Individual : USD 5,00,000"
+1111,sfs,003,$50000
+1111,sfs,004,$100000
+1111,sfs,005,$300000
+1111,sfs,006,$500000
+1111,sfs,007,$1000000
+22,d,001,$50000
+22,d,002,$100000
+22,d,003,$300000
+22,d,004,$500000
+22,d,005,$1000000
+12001002,Care Freedom - 20 Percent Co-Pay,017,Individual : Rs. 300000 X Rs. 50000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,018,Floater : Rs. 300000 X Rs. 50000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,019,Individual : Rs. 300000 X Rs. 100000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,020,Floater : Rs. 300000 X Rs. 100000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,021,Individual : Rs. 300000 X Rs. 200000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,022,Floater : Rs. 300000 X Rs. 200000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,023,Individual : Rs. 300000 X Rs. 300000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,024,Floater : Rs. 300000 X Rs. 300000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,025,Individual : Rs. 400000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,026,Floater : Rs. 400000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,027,Individual : Rs. 400000 X Rs. 25,000---OPD 300
+40001011,Explore Gold-WW (Single),001,Individual : USD 50000
+40001011,Explore Gold-WW (Single),002,Individual : USD 100000
+40001011,Explore Gold-WW (Single),003,Individual : USD 300000
+40001011,Explore Gold-WW (Single),004,Individual : USD 500000
 30001003,Secure - 3,001,50 Lacs
 30001003,Secure - 3,002,1 Crore
 30001003,Secure - 3,003,2 Crores
 30001003,Secure - 3,004,3 Crores
-40001025,Student Explore Super - Worldwide,001,"$ 50,000 medical expenses - MAT 1000"
-40001025,Student Explore Super - Worldwide,002,"$ 100,000 medical expenses - MAT 1000"
-40001025,Student Explore Super - Worldwide,003,"$ 300,000 medical expenses - MAT 1000"
-40001025,Student Explore Super - Worldwide,004,"$ 500,000 medical expenses - MAT 1000"
-40001025,Student Explore Super - Worldwide,005,"$ 50,000 medical expenses - MAT 5000"
-40001025,Student Explore Super - Worldwide,006,"$ 100,000 medical expenses - MAT 5000"
-40001025,Student Explore Super - Worldwide,007,"$ 300,000 medical expenses - MAT 5000"
-40001025,Student Explore Super - Worldwide,008,"$ 500,000 medical expenses - MAT 5000"
-40001025,Student Explore Super - Worldwide,009,"$ 50,000 medical expenses -MAT upto SI"
-40001025,Student Explore Super - Worldwide,010,"$ 100,000 medical expenses-MAT upto SI"
-40001025,Student Explore Super - Worldwide,011,"$ 300,000 medical expenses-MAT upto SI"
-40001025,Student Explore Super - Worldwide,012,"$ 500,000 medical expenses-MAT upto SI"
-12001002,Care Freedom - 20 Percent Co-Pay,028,"Floater : Rs. 4,00,000 X Rs. 25,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,029,"Individual : Rs. 4,00,000 X Rs. 50,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,030,"Floater : Rs. 4,00,000 X Rs. 50,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,031,"Individual : Rs. 4,00,000 X Rs. 1,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,032,"Floater : Rs. 4,00,000 X Rs. 1,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,033,"Individual : Rs. 4,00,000 X Rs. 2,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,034,"Floater : Rs. 4,00,000 X Rs. 2,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,035,"Individual : Rs. 4,00,000 X Rs. 3,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,036,"Floater : Rs. 4,00,000 X Rs. 3,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,037,"Individual : Rs. 5,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,038,"Floater : Rs. 5,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,039,"Individual : Rs. 5,00,000 X Rs. 25,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,040,"Floater : Rs. 5,00,000 X Rs. 25,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,041,"Individual : Rs. 5,00,000 X Rs. 50,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,042,"Floater : Rs. 5,00,000 X Rs. 50,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,043,"Individual : Rs. 5,00,000 X Rs. 1,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,044,"Floater : Rs. 5,00,000 X Rs. 1,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,045,"Individual : Rs. 5,00,000 X Rs. 2,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,046,"Floater : Rs. 5,00,000 X Rs. 2,00,000---OPD 300"
+40001025,Student Explore Super - Worldwide,001,$ 50000 medical expenses - MAT 1000
+40001025,Student Explore Super - Worldwide,002,$ 100000 medical expenses - MAT 1000
+40001025,Student Explore Super - Worldwide,003,$ 300000 medical expenses - MAT 1000
+40001025,Student Explore Super - Worldwide,004,$ 500000 medical expenses - MAT 1000
+40001025,Student Explore Super - Worldwide,005,$ 50000 medical expenses - MAT 5000
+40001025,Student Explore Super - Worldwide,006,$ 100000 medical expenses - MAT 5000
+40001025,Student Explore Super - Worldwide,007,$ 300000 medical expenses - MAT 5000
+40001025,Student Explore Super - Worldwide,008,$ 500000 medical expenses - MAT 5000
+40001025,Student Explore Super - Worldwide,009,$ 50000 medical expenses -MAT upto SI
+40001025,Student Explore Super - Worldwide,010,$ 100000 medical expenses-MAT upto SI
+40001025,Student Explore Super - Worldwide,011,$ 300000 medical expenses-MAT upto SI
+40001025,Student Explore Super - Worldwide,012,$ 500000 medical expenses-MAT upto SI
+12001002,Care Freedom - 20 Percent Co-Pay,028,Floater : Rs. 400000 X Rs. 25,000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,029,Individual : Rs. 400000 X Rs. 50000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,030,Floater : Rs. 400000 X Rs. 50000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,031,Individual : Rs. 400000 X Rs. 100000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,032,Floater : Rs. 400000 X Rs. 100000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,033,Individual : Rs. 400000 X Rs. 200000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,034,Floater : Rs. 400000 X Rs. 200000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,035,Individual : Rs. 400000 X Rs. 300000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,036,Floater : Rs. 400000 X Rs. 300000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,037,Individual : Rs. 500000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,038,Floater : Rs. 500000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,039,Individual : Rs. 500000 X Rs. 25,000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,040,Floater : Rs. 500000 X Rs. 25,000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,041,Individual : Rs. 500000 X Rs. 50000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,042,Floater : Rs. 500000 X Rs. 50000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,043,Individual : Rs. 500000 X Rs. 100000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,044,Floater : Rs. 500000 X Rs. 100000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,045,Individual : Rs. 500000 X Rs. 200000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,046,Floater : Rs. 500000 X Rs. 200000---OPD 300
 1102,Expert Opinion,001,Individual
 1102,Expert Opinion,002,Family Floater
 11001001,Enhance - 1,001,1 Lac Xs 1 Lac
@@ -387,25 +387,25 @@
 11001001,Enhance - 1,029,15 Lac Xs 3 Lac
 11001001,Enhance - 1,030,15 Lac Xs 3 Lac
 11001001,Enhance - 1,031,4 Lac Xs 4 Lac
-10003010,Group Care( Scheme 2 for Fortis),001,"Individual : Rs. 5,00,000"
-10003010,Group Care( Scheme 2 for Fortis),003,"Individual : Rs. 2,00,000"
-10003010,Group Care( Scheme 2 for Fortis),002,"Floater : Rs. 5,00,000"
-10003010,Group Care( Scheme 2 for Fortis),004,"Floater : Rs. 2,00,000"
-20004001,Assure(Scheme for KASHI GOMTI),001,"Individual : Rs 50,000"
-20004001,Assure(Scheme for KASHI GOMTI),002,"Individual : Rs 1,00,000"
-20004001,Assure(Scheme for KASHI GOMTI),003,"Individual : Rs 1,50,000"
-20004001,Assure(Scheme for KASHI GOMTI),004,"Individual : Rs 2,00,000"
-20004001,Assure(Scheme for KASHI GOMTI),005,"Individual : Rs 3,00,000"
-20004001,Assure(Scheme for KASHI GOMTI),006,"Individual : Rs 4,00,000"
+10003010,Group Care( Scheme 2 for Fortis),001,Individual : Rs. 500000
+10003010,Group Care( Scheme 2 for Fortis),003,Individual : Rs. 200000
+10003010,Group Care( Scheme 2 for Fortis),002,Floater : Rs. 500000
+10003010,Group Care( Scheme 2 for Fortis),004,Floater : Rs. 200000
+20004001,Assure(Scheme for KASHI GOMTI),001,50000
+20004001,Assure(Scheme for KASHI GOMTI),002,100000
+20004001,Assure(Scheme for KASHI GOMTI),003,150000
+20004001,Assure(Scheme for KASHI GOMTI),004,200000
+20004001,Assure(Scheme for KASHI GOMTI),005,300000
+20004001,Assure(Scheme for KASHI GOMTI),006,400000
 10003013,Group Care( Scheme For Anand Rathi),001,Rs. 50000
 30044001,Secure 4 Variable (Above 3 Crs. to 25 Crs.),001,Individual : Above 3 Crs. to 25 Crs.
-20004002,Assure (Scheme for Himachal Pradesh),001,"Individual : Rs. 50,000"
-20004002,Assure (Scheme for Himachal Pradesh),002,"Individual : Rs. 1,00,000"
-20004002,Assure (Scheme for Himachal Pradesh),003,"Individual : Rs. 1,50,000"
-20004002,Assure (Scheme for Himachal Pradesh),004,"Individual : Rs. 2,00,000"
-20004002,Assure (Scheme for Himachal Pradesh),005,"Individual : Rs. 3,00,000"
-20004002,Assure (Scheme for Himachal Pradesh),006,"Individual : Rs. 4,00,000"
-10003006,Group Care (Scheme for Fortis),001,"Individual : Rs. 5,00,000"
+20004002,Assure (Scheme for Himachal Pradesh),001,Individual : Rs. 50000
+20004002,Assure (Scheme for Himachal Pradesh),002,Individual : Rs. 100000
+20004002,Assure (Scheme for Himachal Pradesh),003,Individual : Rs. 150000
+20004002,Assure (Scheme for Himachal Pradesh),004,Individual : Rs. 200000
+20004002,Assure (Scheme for Himachal Pradesh),005,Individual : Rs. 300000
+20004002,Assure (Scheme for Himachal Pradesh),006,Individual : Rs. 400000
+10003006,Group Care (Scheme for Fortis),001,Individual : Rs. 500000
 10003009,Group Care (Scheme 2 - IIB),001,2.5 Lac : Individual
 10003009,Group Care (Scheme 2 - IIB),003,4 Lac : Individual
 10003009,Group Care (Scheme 2 - IIB),005,6 Lac : Individual
@@ -428,73 +428,73 @@
 30001009,Secure 3 - IIB,002,1 Crore
 30001009,Secure 3 - IIB,003,2 Crores
 30001009,Secure 3 - IIB,004,3 Crores
-10003014,Group Care (HPGB),001,"Without Spouse Rs. 50,000"
-10003014,Group Care (HPGB),002,"With Spouse Rs. 50,000"
-10003017,Group Care (Scheme for Muthoot Finance Ltd.),001,"Rs 2,00,000"
-10003012,Group Care(KGSGB),002,"Rs. 50,000 without Spouse"
-10003012,Group Care(KGSGB),003,"Rs. 50,000 with Spouse"
-40001023,Student Explore Start,001,"$ 30,000"
+10003014,Group Care (HPGB),001,Without Spouse Rs. 50000
+10003014,Group Care (HPGB),002,With Spouse Rs. 50000
+10003017,Group Care (Scheme for Muthoot Finance Ltd.),001,200000
+10003012,Group Care(KGSGB),002,Rs. 50000 without Spouse
+10003012,Group Care(KGSGB),003,Rs. 50000 with Spouse
+40001023,Student Explore Start,001,$ 30000
 1,Self,001,$7500
-40001029,Student Explore Ultra - Ex US and Canada,001,"$ 50,000 medical expenses - MAT 1000"
-40001029,Student Explore Ultra - Ex US and Canada,002,"$ 100,000 medical expenses - MAT 1000"
-40001029,Student Explore Ultra - Ex US and Canada,003,"$ 300,000 medical expenses - MAT 1000"
-40001029,Student Explore Ultra - Ex US and Canada,004,"$ 500,000 medical expenses - MAT 1000"
-40001029,Student Explore Ultra - Ex US and Canada,006,"$ 50,000 medical expenses - MAT 5000"
-40001029,Student Explore Ultra - Ex US and Canada,007,"$ 100,000 medical expenses - MAT 5000"
-40001029,Student Explore Ultra - Ex US and Canada,008,"$ 300,000 medical expenses - MAT 5000"
-40001029,Student Explore Ultra - Ex US and Canada,009,"$ 500,000 medical expenses - MAT 5000"
-40001029,Student Explore Ultra - Ex US and Canada,010,"$ 1,000,000 medical expenses - MAT 5000"
-40001029,Student Explore Ultra - Ex US and Canada,011,"$ 50,000 medical expenses - MAT Upto SI"
-40001029,Student Explore Ultra - Ex US and Canada,012,"$ 100,000 medical expenses - MAT Upto SI"
-40001029,Student Explore Ultra - Ex US and Canada,013,"$ 300,000 medical expenses - MAT Upto SI"
-40001029,Student Explore Ultra - Ex US and Canada,014,"$ 500,000 medical expenses - MAT Upto SI"
-40001029,Student Explore Ultra - Ex US and Canada,015,"$ 1,000,000 medical expenses - MAT Upto SI"
-12001002,Care Freedom - 20 Percent Co-Pay,001,"Individual : Rs. 2,00,000---OPD 300"
-40001010,Explore Platinum Ex US_Canada(Single),004,"Individual : USD 5,00,000"
+40001029,Student Explore Ultra - Ex US and Canada,001,$ 50000 medical expenses - MAT 1000
+40001029,Student Explore Ultra - Ex US and Canada,002,$ 100000 medical expenses - MAT 1000
+40001029,Student Explore Ultra - Ex US and Canada,003,$ 300000 medical expenses - MAT 1000
+40001029,Student Explore Ultra - Ex US and Canada,004,$ 500000 medical expenses - MAT 1000
+40001029,Student Explore Ultra - Ex US and Canada,006,$ 50000 medical expenses - MAT 5000
+40001029,Student Explore Ultra - Ex US and Canada,007,$ 100000 medical expenses - MAT 5000
+40001029,Student Explore Ultra - Ex US and Canada,008,$ 300000 medical expenses - MAT 5000
+40001029,Student Explore Ultra - Ex US and Canada,009,$ 500000 medical expenses - MAT 5000
+40001029,Student Explore Ultra - Ex US and Canada,010,$ 1000000 medical expenses - MAT 5000
+40001029,Student Explore Ultra - Ex US and Canada,011,$ 50000 medical expenses - MAT Upto SI
+40001029,Student Explore Ultra - Ex US and Canada,012,$ 100000 medical expenses - MAT Upto SI
+40001029,Student Explore Ultra - Ex US and Canada,013,$ 300000 medical expenses - MAT Upto SI
+40001029,Student Explore Ultra - Ex US and Canada,014,$ 500000 medical expenses - MAT Upto SI
+40001029,Student Explore Ultra - Ex US and Canada,015,$ 1000000 medical expenses - MAT Upto SI
+12001002,Care Freedom - 20 Percent Co-Pay,001,Individual : Rs. 200000---OPD 300
+40001010,Explore Platinum Ex US_Canada(Single),004,Individual : USD 500000
 30001006,Secure - 1,001,10 Lac
 30001002,Secure - 2,001,15 Lacs
 30001002,Secure - 2,002,20 Lacs
 30001002,Secure - 2,003,25 Lacs
 30001002,Secure - 2,004,30 Lacs
-10003006,Group Care (Scheme for Fortis),003,"Individual : Rs. 3,00,000"
-10003006,Group Care (Scheme for Fortis),004,"Floater : Rs. 3,00,000"
-10003011,Group Care (Saraswat Bank),001,"Individual : Rs. 3,00,000"
-10003011,Group Care (Saraswat Bank),003,"Individual : Rs. 4,00,000"
-10003011,Group Care (Saraswat Bank),005,"Individual : Rs. 5,00,000"
-10003011,Group Care (Saraswat Bank),007,"Individual : Rs. 7,00,000"
-10003011,Group Care (Saraswat Bank),009,"Individual : Rs. 10,00,000"
-10003011,Group Care (Saraswat Bank),002,"Floater : Rs. 3,00,000"
-10003011,Group Care (Saraswat Bank),004,"Floater : Rs. 4,00,000"
-10003011,Group Care (Saraswat Bank),006,"Floater : Rs. 5,00,000"
-10003011,Group Care (Saraswat Bank),008,"Floater : Rs. 7,00,000"
-10003011,Group Care (Saraswat Bank),010,"Floater : Rs. 10,00,000"
-30001007,Group secure - IIB gold loan,001,"Individual : Rs. 5,00,000"
+10003006,Group Care (Scheme for Fortis),003,Individual : Rs. 300000
+10003006,Group Care (Scheme for Fortis),004,Floater : Rs. 300000
+10003011,Group Care (Saraswat Bank),001,Individual : Rs. 300000
+10003011,Group Care (Saraswat Bank),003,Individual : Rs. 400000
+10003011,Group Care (Saraswat Bank),005,Individual : Rs. 500000
+10003011,Group Care (Saraswat Bank),007,Individual : Rs. 700000
+10003011,Group Care (Saraswat Bank),009,Individual : Rs. 1000000
+10003011,Group Care (Saraswat Bank),002,Floater : Rs. 300000
+10003011,Group Care (Saraswat Bank),004,Floater : Rs. 400000
+10003011,Group Care (Saraswat Bank),006,Floater : Rs. 500000
+10003011,Group Care (Saraswat Bank),008,Floater : Rs. 700000
+10003011,Group Care (Saraswat Bank),010,Floater : Rs. 1000000
+30001007,Group secure - IIB gold loan,001,Individual : Rs. 500000
 20003001,Assure (Scheme for RHDFC),004,2 Years: Up to 10 Lac
-20003001,Assure (Scheme for RHDFC),006,"2 Years: 50,00,001 and above"
-20003001,Assure (Scheme for RHDFC),005,"2 Years: 10,00,001 to 50 Lac"
+20003001,Assure (Scheme for RHDFC),006,2 Years: 5000001 and above
+20003001,Assure (Scheme for RHDFC),005,2 Years: 1000001 to 50 Lac
 20003001,Assure (Scheme for RHDFC),007,3 Years: Up to 10 Lac
-20003001,Assure (Scheme for RHDFC),009,"3 Years: 50,00,001 and above"
-20003001,Assure (Scheme for RHDFC),008,"3 Years: 10,00,001 to 50 Lac"
-30001012,Group Secure (Scheme 2 HPGB),001,"Individual : Rs. 1,00,000"
-30041002,Group Secure(scheme for faircent),001,"From Rs. 1,00,000 to Rs. 10,00,000"
-40001027,Student Explore Plus - Ex US and Canada,001,"$ 50,000 medical expenses---- MAT 1000"
-40001027,Student Explore Plus - Ex US and Canada,002,"$ 100,000 medical expenses--- MAT 1000"
-40001027,Student Explore Plus - Ex US and Canada,003,"$ 50,000 medical expenses--- MAT 5000"
-40001027,Student Explore Plus - Ex US and Canada,004,"$ 100,000 medical expenses--- MAT 5000"
-40001027,Student Explore Plus - Ex US and Canada,005,"$ 50,000 medical expenses--- MAT Upto SI"
-40001027,Student Explore Plus - Ex US and Canada,006,"$ 100,000 medical expenses--- MAT Upto SI"
-40001028,Student Explore Super - Ex US and Canada,001,"$ 50,000 medical expenses - MAT 1000"
-40001028,Student Explore Super - Ex US and Canada,002,"$ 100,000 medical expenses - MAT 1000"
-40001028,Student Explore Super - Ex US and Canada,003,"$ 300,000 medical expenses - MAT 1000"
-40001028,Student Explore Super - Ex US and Canada,005,"$ 50,000 medical expenses - MAT 5000"
-40001028,Student Explore Super - Ex US and Canada,006,"$ 100,000 medical expenses - MAT 5000"
-40001028,Student Explore Super - Ex US and Canada,007,"$ 300,000 medical expenses - MAT 5000"
-40001028,Student Explore Super - Ex US and Canada,008,"$ 500,000 medical expenses - MAT 5000"
-40001028,Student Explore Super - Ex US and Canada,009,"$ 50,000 medical expenses - MAT Upto SI"
-40001028,Student Explore Super - Ex US and Canada,010,"$ 100,000 medical expenses - MAT Upto SI"
-40001028,Student Explore Super - Ex US and Canada,011,"$ 300,000 medical expenses - MAT Upto SI"
-40001028,Student Explore Super - Ex US and Canada,012,"$ 500,000 medical expenses - MAT Upto SI"
-10003006,Group Care (Scheme for Fortis),002,"Floater : Rs. 5,00,000"
+20003001,Assure (Scheme for RHDFC),009,3 Years: 5000001 and above
+20003001,Assure (Scheme for RHDFC),008,3 Years: 1000001 to 50 Lac
+30001012,Group Secure (Scheme 2 HPGB),001,Individual : Rs. 100000
+30041002,Group Secure(scheme for faircent),001,From Rs. 100000 to Rs. 1000000
+40001027,Student Explore Plus - Ex US and Canada,001,$ 50000 medical expenses---- MAT 1000
+40001027,Student Explore Plus - Ex US and Canada,002,$ 100000 medical expenses--- MAT 1000
+40001027,Student Explore Plus - Ex US and Canada,003,$ 50000 medical expenses--- MAT 5000
+40001027,Student Explore Plus - Ex US and Canada,004,$ 100000 medical expenses--- MAT 5000
+40001027,Student Explore Plus - Ex US and Canada,005,$ 50000 medical expenses--- MAT Upto SI
+40001027,Student Explore Plus - Ex US and Canada,006,$ 100000 medical expenses--- MAT Upto SI
+40001028,Student Explore Super - Ex US and Canada,001,$ 50000 medical expenses - MAT 1000
+40001028,Student Explore Super - Ex US and Canada,002,$ 100000 medical expenses - MAT 1000
+40001028,Student Explore Super - Ex US and Canada,003,$ 300000 medical expenses - MAT 1000
+40001028,Student Explore Super - Ex US and Canada,005,$ 50000 medical expenses - MAT 5000
+40001028,Student Explore Super - Ex US and Canada,006,$ 100000 medical expenses - MAT 5000
+40001028,Student Explore Super - Ex US and Canada,007,$ 300000 medical expenses - MAT 5000
+40001028,Student Explore Super - Ex US and Canada,008,$ 500000 medical expenses - MAT 5000
+40001028,Student Explore Super - Ex US and Canada,009,$ 50000 medical expenses - MAT Upto SI
+40001028,Student Explore Super - Ex US and Canada,010,$ 100000 medical expenses - MAT Upto SI
+40001028,Student Explore Super - Ex US and Canada,011,$ 300000 medical expenses - MAT Upto SI
+40001028,Student Explore Super - Ex US and Canada,012,$ 500000 medical expenses - MAT Upto SI
+10003006,Group Care (Scheme for Fortis),002,Floater : Rs. 500000
 11001002,Enhance - 2,001,45 Lac Xs 5 Lac
 11001002,Enhance - 2,002,45 Lac Xs 5 Lac
 11001002,Enhance - 2,003,55 Lac Xs 5 Lac
@@ -512,21 +512,21 @@
 11001002,Enhance - 2,015,40 Lac Xs 20 Lac
 11001002,Enhance - 2,016,40 Lac Xs 20 Lac
 30042001,Secure 2 Variable (Above 10 Lacs to 30 Lacs),001,Individual : 10 to 30 Lacs
-30001008,Secure 2- IIB,001,"Rs. 15,00,000"
-30001008,Secure 2- IIB,002,"Rs. 20,00,000"
-30001008,Secure 2- IIB,003,"Rs. 25,00,000"
-30001008,Secure 2- IIB,004,"Rs. 30,00,000"
-10001101,Care,025,"Individual : Rs. 7,00,000"
-10001101,Care,027,"Individual : Rs. 10,00,000"
-10001101,Care,028,"Floater : Rs. 10,00,000"
-10003015,Group Care(Scheme for Muthoot Capital Services Ltd.),001,"Rs 2,00,000"
-30001020,Group Secure ( Scheme 3 HPGB),001,"Rs. 2,00,000"
-40001024,Student Explore Plus - Worldwide,001,"$ 50,000 medical expenses---Mat 1000"
-40001024,Student Explore Plus - Worldwide,002,"$ 100,000 medical expenses---Mat 1000"
-40001024,Student Explore Plus - Worldwide,003,"$ 50,000 medical expenses---Mat 5000"
-40001024,Student Explore Plus - Worldwide,004,"$ 100,000 medical expenses---Mat 5000"
-40001024,Student Explore Plus - Worldwide,005,"$ 50,000 medical expenses --- MAT Upto SI"
-40001024,Student Explore Plus - Worldwide,006,"$ 100,000 medical expenses--- MAT Upto SI"
+30001008,Secure 2- IIB,001,Rs. 1500000
+30001008,Secure 2- IIB,002,Rs. 2000000
+30001008,Secure 2- IIB,003,Rs. 2500000
+30001008,Secure 2- IIB,004,Rs. 3000000
+10001101,Care,025,Individual : Rs. 700000
+10001101,Care,027,Individual : Rs. 1000000
+10001101,Care,028,Floater : Rs. 1000000
+10003015,Group Care(Scheme for Muthoot Capital Services Ltd.),001,200000
+30001020,Group Secure ( Scheme 3 HPGB),001,Rs. 200000
+40001024,Student Explore Plus - Worldwide,001,$ 50000 medical expenses---Mat 1000
+40001024,Student Explore Plus - Worldwide,002,$ 100000 medical expenses---Mat 1000
+40001024,Student Explore Plus - Worldwide,003,$ 50000 medical expenses---Mat 5000
+40001024,Student Explore Plus - Worldwide,004,$ 100000 medical expenses---Mat 5000
+40001024,Student Explore Plus - Worldwide,005,$ 50000 medical expenses --- MAT Upto SI
+40001024,Student Explore Plus - Worldwide,006,$ 100000 medical expenses--- MAT Upto SI
 4,,001,$200
 11,,001,$50000
 11,,002,$100000
@@ -535,53 +535,53 @@
 11,,005,$1000000
 1203,Home Care,001,Individual : Upto Rs. 1000 per day
 1203,Home Care,002,Floater : Upto Rs. 1000 per day
-12001002,Care Freedom - 20 Percent Co-Pay,003,"Individual : Rs. 2,00,000 X Rs. 25,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,004,"Floater : Rs. 2,00,000 X Rs. 25,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,005,"Individual : Rs. 2,00,000 X Rs. 50,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,006,"Floater : Rs. 2,00,000 X Rs. 50,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,007,"Individual : Rs. 2,00,000 X Rs. 1,00,000---OPD 300"
-40001012,Explore Platinum-WW(Single),001,"Individual : USD 50,000"
-40001012,Explore Platinum-WW(Single),002,"Individual : USD 1,00,000"
-40001012,Explore Platinum-WW(Single),003,"Individual : USD 3,00,000"
-40001012,Explore Platinum-WW(Single),004,"Individual : USD 5,00,000"
+12001002,Care Freedom - 20 Percent Co-Pay,003,Individual : Rs. 200000 X Rs. 25,000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,004,Floater : Rs. 200000 X Rs. 25,000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,005,Individual : Rs. 200000 X Rs. 50000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,006,Floater : Rs. 200000 X Rs. 50000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,007,Individual : Rs. 200000 X Rs. 100000---OPD 300
+40001012,Explore Platinum-WW(Single),001,Individual : USD 50000
+40001012,Explore Platinum-WW(Single),002,Individual : USD 100000
+40001012,Explore Platinum-WW(Single),003,Individual : USD 300000
+40001012,Explore Platinum-WW(Single),004,Individual : USD 500000
 30001005,Secure - 5,001,10 Lacs
 30001005,Secure - 5,002,15 Lacs
 30001005,Secure - 5,003,20 Lacs
 30001005,Secure - 5,004,25 Lacs
 30001005,Secure - 5,005,30 Lacs
-20004003,Assure(Scheme for Kashi Gomti)- Employee,001,"Rs. 4,00,000"
-30001010,Secure (Scheme for Kashi Gomti),001,"Individual : Rs. 1,00,000"
-30006001,Group Secure(IIB casa),001,"Individual: Rs. 25,00,000"
-30001019,Group Secure(Scheme 3 KGSGB),001,"Individual : Rs. 2,00,000"
-40001026,Student Explore Ultra - Worldwide,001,"$ 50,000 medical expenses--- MAT 1000"
-40001026,Student Explore Ultra - Worldwide,002,"$ 100,000 medical expenses--- MAT 1000"
-40001026,Student Explore Ultra - Worldwide,003,"$ 300,000 medical expenses--- MAT 1000"
-40001026,Student Explore Ultra - Worldwide,004,"$ 500,000 medical expenses--- MAT 1000"
-40001026,Student Explore Ultra - Worldwide,005,"$ 1,000,000 medical expenses--- MAT 1000"
-40001026,Student Explore Ultra - Worldwide,006,"$ 50,000 medical expenses--- MAT 5000"
-40001026,Student Explore Ultra - Worldwide,007,"$ 100,000 medical expenses--- MAT 5000"
-40001026,Student Explore Ultra - Worldwide,008,"$ 300,000 medical expenses --- MAT 5000"
-40001026,Student Explore Ultra - Worldwide,009,"$ 500,000 medical expenses--- MAT 5000"
-40001026,Student Explore Ultra - Worldwide,010,"$ 1,000,000 medical expenses--- MAT 5000"
-40001026,Student Explore Ultra - Worldwide,011,"$ 50,000 medical expenses--- MAT Upto SI"
-40001026,Student Explore Ultra - Worldwide,012,"$ 100,000 medical expenses--- MAT Upto SI"
-40001026,Student Explore Ultra - Worldwide,013,"$ 300,000 medical expenses--- MAT Upto SI"
-40001026,Student Explore Ultra - Worldwide,014,"$ 500,000 medical expenses--- MAT Upto SI"
-40001026,Student Explore Ultra - Worldwide,015,"$ 1,000,000 medical expenses--- MAT Upto SI"
+20004003,Assure(Scheme for Kashi Gomti)- Employee,001,Rs. 400000
+30001010,Secure (Scheme for Kashi Gomti),001,Individual : Rs. 100000
+30006001,Group Secure(IIB casa),001,Individual: Rs. 2500000
+30001019,Group Secure(Scheme 3 KGSGB),001,Individual : Rs. 200000
+40001026,Student Explore Ultra - Worldwide,001,$ 50000 medical expenses--- MAT 1000
+40001026,Student Explore Ultra - Worldwide,002,$ 100000 medical expenses--- MAT 1000
+40001026,Student Explore Ultra - Worldwide,003,$ 300000 medical expenses--- MAT 1000
+40001026,Student Explore Ultra - Worldwide,004,$ 500000 medical expenses--- MAT 1000
+40001026,Student Explore Ultra - Worldwide,005,$ 1000000 medical expenses--- MAT 1000
+40001026,Student Explore Ultra - Worldwide,006,$ 50000 medical expenses--- MAT 5000
+40001026,Student Explore Ultra - Worldwide,007,$ 100000 medical expenses--- MAT 5000
+40001026,Student Explore Ultra - Worldwide,008,$ 300000 medical expenses --- MAT 5000
+40001026,Student Explore Ultra - Worldwide,009,$ 500000 medical expenses--- MAT 5000
+40001026,Student Explore Ultra - Worldwide,010,$ 1000000 medical expenses--- MAT 5000
+40001026,Student Explore Ultra - Worldwide,011,$ 50000 medical expenses--- MAT Upto SI
+40001026,Student Explore Ultra - Worldwide,012,$ 100000 medical expenses--- MAT Upto SI
+40001026,Student Explore Ultra - Worldwide,013,$ 300000 medical expenses--- MAT Upto SI
+40001026,Student Explore Ultra - Worldwide,014,$ 500000 medical expenses--- MAT Upto SI
+40001026,Student Explore Ultra - Worldwide,015,$ 1000000 medical expenses--- MAT Upto SI
 1202,Good Health Plus,001,Individual : OPD Rs. 300 Per Visit
 1202,Good Health Plus,002,Floater : OPD Rs. 300 Per Visit
 1202,Good Health Plus,003,Individual : OPD Rs. 600 Per Visit
 1202,Good Health Plus,005,Individual : OPD Rs. 1000 Per Visit
 1202,Good Health Plus,006,Floater : OPD Rs. 1000 Per Visit
-12001002,Care Freedom - 20 Percent Co-Pay,008,"Floater : Rs. 2,00,000 X Rs. 1,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,009,"Individual : Rs. 2,00,000 X Rs. 2,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,010,"Floater : Rs. 2,00,000 X Rs. 2,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,011,"Individual : Rs. 2,00,000 X Rs. 3,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,012,"Floater : Rs. 2,00,000 X Rs. 3,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,013,"Individual : Rs. 3,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,014,"Floater : Rs. 3,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,015,"Individual : Rs. 3,00,000 X Rs. 25,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,016,"Floater : Rs. 3,00,000 X Rs. 25,000---OPD 300"
+12001002,Care Freedom - 20 Percent Co-Pay,008,Floater : Rs. 200000 X Rs. 100000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,009,Individual : Rs. 200000 X Rs. 200000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,010,Floater : Rs. 200000 X Rs. 200000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,011,Individual : Rs. 200000 X Rs. 300000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,012,Floater : Rs. 200000 X Rs. 300000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,013,Individual : Rs. 300000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,014,Floater : Rs. 300000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,015,Individual : Rs. 300000 X Rs. 25,000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,016,Floater : Rs. 300000 X Rs. 25,000---OPD 300
 30006003,Group Secure(co-origination),001,15 Lac : Individual
 30001030,Group Secure(Jeevan Suraksha),001,Plan 1: 2 Lac Ind
 30001030,Group Secure(Jeevan Suraksha),008,Plan 7: 25 Lac Ind
@@ -591,33 +591,33 @@
 30001030,Group Secure(Jeevan Suraksha),004,Plan 3: 6 Lac Ind
 30001030,Group Secure(Jeevan Suraksha),003,Plan 2: 3.6 Lac Ind
 30001030,Group Secure(Jeevan Suraksha),002,Plan 2: 2.4 Lac Ind
-10003027,Group Care(Paisa Bazaar),009,Individual: 30K OPD
-10003027,Group Care(Paisa Bazaar),007,Individual: 25K OPD
-10003027,Group Care(Paisa Bazaar),005,Individual: 20K OPD
-10003027,Group Care(Paisa Bazaar),003,Individual: 15K OPD
-10003027,Group Care(Paisa Bazaar),018,Floater: 50K OPD
-10003027,Group Care(Paisa Bazaar),016,Floater: 45K OPD
-10003027,Group Care(Paisa Bazaar),014,Floater: 40K OPD
-10003027,Group Care(Paisa Bazaar),012,Floater: 35K OPD
-10003027,Group Care(Paisa Bazaar),010,Floater: 30K OPD
-10003027,Group Care(Paisa Bazaar),008,Floater: 25K OPD
-10003027,Group Care(Paisa Bazaar),004,Floater: 15K OPD
-10003027,Group Care(Paisa Bazaar),006,Floater: 20K OPD
-10003027,Group Care(Paisa Bazaar),002,Floater: 10K OPD
-30001034,Group Secure(PaisabazaarRural),001,Individual : 50000
-30001034,Group Secure(PaisabazaarRural),002,Individual : 100000
-30001034,Group Secure(PaisabazaarRural),003,Individual : 150000
-30001034,Group Secure(PaisabazaarRural),004,Individual : 200000
-10003036,Group Care(Futurisk),001,10K OPD:Individual
-10003036,Group Care(Futurisk),010,30K OPD:Floater
-10003036,Group Care(Futurisk),009,30K OPD:Individual
-10003036,Group Care(Futurisk),008,25K OPD:Floater
-10003036,Group Care(Futurisk),007,25K OPD:Individual
-10003036,Group Care(Futurisk),006,20K OPD:Floater
-10003036,Group Care(Futurisk),005,20K OPD:Individual
-10003036,Group Care(Futurisk),004,15K OPD:Floater
-10003036,Group Care(Futurisk),003,15K OPD:Individual
-10003036,Group Care(Futurisk),002,1OK OPD:Floater
+10003027,Group Care(Paisa Bazaar),009,30000
+10003027,Group Care(Paisa Bazaar),007,25000
+10003027,Group Care(Paisa Bazaar),005,20000
+10003027,Group Care(Paisa Bazaar),003,15000
+10003027,Group Care(Paisa Bazaar),018,50000
+10003027,Group Care(Paisa Bazaar),016,45000
+10003027,Group Care(Paisa Bazaar),014,40000
+10003027,Group Care(Paisa Bazaar),012,35000
+10003027,Group Care(Paisa Bazaar),010,30000
+10003027,Group Care(Paisa Bazaar),008,25000
+10003027,Group Care(Paisa Bazaar),004,15000
+10003027,Group Care(Paisa Bazaar),006,20000
+10003027,Group Care(Paisa Bazaar),002,10000
+30001034,Group Secure(PaisabazaarRural),001,50000
+30001034,Group Secure(PaisabazaarRural),002,100000
+30001034,Group Secure(PaisabazaarRural),003,150000
+30001034,Group Secure(PaisabazaarRural),004,200000
+10003036,Group Care(Futurisk),001,10000
+10003036,Group Care(Futurisk),010,30000
+10003036,Group Care(Futurisk),009,30000
+10003036,Group Care(Futurisk),008,25000
+10003036,Group Care(Futurisk),007,25000
+10003036,Group Care(Futurisk),006,20000
+10003036,Group Care(Futurisk),005,20000
+10003036,Group Care(Futurisk),004,15000
+10003036,Group Care(Futurisk),003,15000
+10003036,Group Care(Futurisk),002,1O000
 10003037,Group Care(JKVSwasthayaKavach),001,Plan 1: 2 Lac Ind.
 10003037,Group Care(JKVSwasthayaKavach),006,Plan 3: 5 Lac Floater
 10003037,Group Care(JKVSwasthayaKavach),005,Plan 3: 5 Lac Ind.
@@ -639,12 +639,12 @@
 20001004,Assure 4,009,9 Lacs
 10003023,Group Care(Scheme 1 Allahabad Gramin Bank),001,Rs. 50000 : Individual
 10003023,Group Care(Scheme 1 Allahabad Gramin Bank),002,Rs. 50000 : Floater
-30001016,Group Secure(Scheme for KGSGB),001,"Rs. 2,00,000"
-30001016,Group Secure(Scheme for KGSGB),002,"Rs. 1,00,000"
-30001016,Group Secure(Scheme for KGSGB),003,"Rs. 2,00,000 with Spouse"
-30001013,Group Secure(Scheme 1 HPGB),001,"Rs. 2,00,000"
-30001013,Group Secure(Scheme 1 HPGB),002,"Rs. 1,00,000"
-30001013,Group Secure(Scheme 1 HPGB),003,"Rs. 2,00,000 with Spouse"
+30001016,Group Secure(Scheme for KGSGB),001,Rs. 200000
+30001016,Group Secure(Scheme for KGSGB),002,Rs. 100000
+30001016,Group Secure(Scheme for KGSGB),003,Rs. 200000 with Spouse
+30001013,Group Secure(Scheme 1 HPGB),001,Rs. 200000
+30001013,Group Secure(Scheme 1 HPGB),002,Rs. 100000
+30001013,Group Secure(Scheme 1 HPGB),003,Rs. 200000 with Spouse
 30042002,Group Secure(Scheme 1),001,Individual: 1 Lac to 3 Cr
 20003002,Group Assure(Scheme 1),001,Individual: Upto 10 Lacs
 20003002,Group Assure(Scheme 1),003,Individual: 50 Lacs to 3 Crore
@@ -664,7 +664,7 @@
 10003040,Group Care(Scheme for Servd),004,Floater: 1.5 LAC
 10003040,Group Care(Scheme for Servd),003,Individual: 1.5 LAC
 10003040,Group Care(Scheme for Servd),002,Floater: 1 LAC
-30001035,Group Secure(Fingoole),001,Plan A1: 25K Individual
+30001035,Group Secure(Fingoole),001,25000
 30001035,Group Secure(Fingoole),011,Plan B5: 20 Lac Individual
 30001035,Group Secure(Fingoole),010,Plan B4: 10 Lac Individual
 30001035,Group Secure(Fingoole),009,Plan B3: 5 Lac Individual
@@ -676,155 +676,155 @@
 30001035,Group Secure(Fingoole),003,Plan A3: 2 Lac Individual
 30001035,Group Secure(Fingoole),002,Plan A2: 1 Lac Individual
 30001033,Group Secure(Aspire),001,Individual: 5 Lac
-12001002,Care Freedom - 20 Percent Co-Pay,071,"Individual : Rs. 3,00,000 X Rs. 3,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,072,"Floater : Rs. 3,00,000 X Rs. 3,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,073,"Individual : Rs. 4,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,074,"Floater : Rs. 4,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,075,"Individual : Rs. 4,00,000 X Rs. 25,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,076,"Floater : Rs. 4,00,000 X Rs. 25,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,077,"Individual : Rs. 4,00,000 X Rs. 50,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,078,"Floater : Rs. 4,00,000 X Rs. 50,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,079,"Individual : Rs. 4,00,000 X Rs. 1,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,080,"Floater : Rs. 4,00,000 X Rs. 1,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,081,"Individual : Rs. 4,00,000 X Rs. 2,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,082,"Floater : Rs. 4,00,000 X Rs. 2,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,083,"Individual : Rs. 4,00,000 X Rs. 3,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,084,"Floater : Rs. 4,00,000 X Rs. 3,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,085,"Individual : Rs. 5,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,086,"Floater : Rs. 5,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,087,"Individual : Rs. 5,00,000 X Rs. 25,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,088,"Floater : Rs. 5,00,000 X Rs. 25,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,089,"Individual : Rs. 5,00,000 X Rs. 50,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,090,"Floater : Rs. 5,00,000 X Rs. 50,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,091,"Individual : Rs. 5,00,000 X Rs. 1,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,092,"Floater : Rs. 5,00,000 X Rs. 1,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,093,"Individual : Rs. 5,00,000 X Rs. 2,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,094,"Floater : Rs. 5,00,000 X Rs. 2,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,095,"Individual : Rs. 5,00,000 X Rs. 3,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,096,"Floater : Rs. 5,00,000 X Rs. 3,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,097,"Individual : Rs. 2,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,098,"Floater : Rs. 2,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,099,"Individual : Rs. 2,00,000 X Rs. 25,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,100,"Floater : Rs. 2,00,000 X Rs. 25,000---OPD 1000"
+12001002,Care Freedom - 20 Percent Co-Pay,071,Individual : Rs. 300000 X Rs. 300000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,072,Floater : Rs. 300000 X Rs. 300000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,073,Individual : Rs. 400000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,074,Floater : Rs. 400000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,075,Individual : Rs. 400000 X Rs. 25,000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,076,Floater : Rs. 400000 X Rs. 25,000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,077,Individual : Rs. 400000 X Rs. 50000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,078,Floater : Rs. 400000 X Rs. 50000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,079,Individual : Rs. 400000 X Rs. 100000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,080,Floater : Rs. 400000 X Rs. 100000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,081,Individual : Rs. 400000 X Rs. 200000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,082,Floater : Rs. 400000 X Rs. 200000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,083,Individual : Rs. 400000 X Rs. 300000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,084,Floater : Rs. 400000 X Rs. 300000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,085,Individual : Rs. 500000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,086,Floater : Rs. 500000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,087,Individual : Rs. 500000 X Rs. 25,000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,088,Floater : Rs. 500000 X Rs. 25,000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,089,Individual : Rs. 500000 X Rs. 50000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,090,Floater : Rs. 500000 X Rs. 50000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,091,Individual : Rs. 500000 X Rs. 100000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,092,Floater : Rs. 500000 X Rs. 100000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,093,Individual : Rs. 500000 X Rs. 200000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,094,Floater : Rs. 500000 X Rs. 200000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,095,Individual : Rs. 500000 X Rs. 300000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,096,Floater : Rs. 500000 X Rs. 300000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,097,Individual : Rs. 200000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,098,Floater : Rs. 200000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,099,Individual : Rs. 200000 X Rs. 25,000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,100,Floater : Rs. 200000 X Rs. 25,000---OPD 1000
 4017,Vision Care,001,$ 200
 10003025,Group Care(Scheme for IIFL),001,1 Lac : Individual
-10003008,Group Care Scheme for Marsh,001,"Individual : Rs. 2,00,000"
-10003008,Group Care Scheme for Marsh,002,"Floater : Rs. 2,00,000"
-10003008,Group Care Scheme for Marsh,003,"Individual : Rs. 3,00,000"
-10003008,Group Care Scheme for Marsh,004,"Floater : Rs. 3,00,000"
-10003008,Group Care Scheme for Marsh,005,"Individual : Rs. 4,00,000"
-12001002,Care Freedom - 20 Percent Co-Pay,101,"Individual : Rs. 2,00,000 X Rs. 50,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,102,"Floater : Rs. 2,00,000 X Rs. 50,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,103,"Individual : Rs. 2,00,000 X Rs. 1,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,104,"Floater : Rs. 2,00,000 X Rs. 1,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,105,"Individual : Rs. 2,00,000 X Rs. 2,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,106,"Floater : Rs. 2,00,000 X Rs. 2,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,107,"Individual : Rs. 2,00,000 X Rs. 3,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,108,"Floater : Rs. 2,00,000 X Rs. 3,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,109,"Individual : Rs. 3,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,110,"Floater : Rs. 3,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,111,"Individual : Rs. 3,00,000 X Rs. 25,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,112,"Floater : Rs. 3,00,000 X Rs. 25,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,113,"Individual : Rs. 3,00,000 X Rs. 50,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,114,"Floater : Rs. 3,00,000 X Rs. 50,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,115,"Individual : Rs. 3,00,000 X Rs. 1,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,116,"Floater : Rs. 3,00,000 X Rs. 1,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,117,"Individual : Rs. 3,00,000 X Rs. 2,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,118,"Floater : Rs. 3,00,000 X Rs. 2,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,119,"Individual : Rs. 3,00,000 X Rs. 3,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,120,"Floater : Rs. 3,00,000 X Rs. 3,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,121,"Individual : Rs. 4,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,122,"Floater : Rs. 4,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,123,"Individual : Rs. 4,00,000 X Rs. 25,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,124,"Floater : Rs. 4,00,000 X Rs. 25,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,125,"Individual : Rs. 4,00,000 X Rs. 50,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,126,"Floater : Rs. 4,00,000 X Rs. 50,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,127,"Individual : Rs. 4,00,000 X Rs. 1,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,128,"Floater : Rs. 4,00,000 X Rs. 1,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,129,"Individual : Rs. 4,00,000 X Rs. 2,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,130,"Floater : Rs. 4,00,000 X Rs. 2,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,131,"Individual : Rs. 4,00,000 X Rs. 3,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,132,"Floater : Rs. 4,00,000 X Rs. 3,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,133,"Individual : Rs. 5,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,134,"Floater : Rs. 5,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,135,"Individual : Rs. 5,00,000 X Rs. 25,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,047,"Individual : Rs. 5,00,000 X Rs. 3,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,048,"Floater : Rs. 5,00,000 X Rs. 3,00,000---OPD 300"
-12001002,Care Freedom - 20 Percent Co-Pay,049,"Individual : Rs. 2,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,050,"Floater : Rs. 2,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,051,"Individual : Rs. 2,00,000 X Rs. 25,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,052,"Floater : Rs. 2,00,000 X Rs. 25,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,053,"Individual : Rs. 2,00,000 X Rs. 50,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,054,"Floater : Rs. 2,00,000 X Rs. 50,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,055,"Individual : Rs. 2,00,000 X Rs. 1,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,056,"Floater : Rs. 2,00,000 X Rs. 1,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,057,"Individual : Rs. 2,00,000 X Rs. 2,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,058,"Floater : Rs. 2,00,000 X Rs. 2,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,059,"Individual : Rs. 2,00,000 X Rs. 3,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,060,"Floater : Rs. 2,00,000 X Rs. 3,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,061,"Individual : Rs. 3,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,062,"Floater : Rs. 3,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,063,"Individual : Rs. 3,00,000 X Rs. 25,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,064,"Floater : Rs. 3,00,000 X Rs. 25,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,065,"Individual : Rs. 3,00,000 X Rs. 50,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,066,"Floater : Rs. 3,00,000 X Rs. 50,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,067,"Individual : Rs. 3,00,000 X Rs. 1,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,068,"Floater : Rs. 3,00,000 X Rs. 1,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,069,"Individual : Rs. 3,00,000 X Rs. 2,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,070,"Floater : Rs. 3,00,000 X Rs. 2,00,000---OPD 600"
-12001002,Care Freedom - 20 Percent Co-Pay,136,"Floater : Rs. 5,00,000 X Rs. 25,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,137,"Individual : Rs. 5,00,000 X Rs. 50,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,138,"Floater : Rs. 5,00,000 X Rs. 50,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,139,"Individual : Rs. 5,00,000 X Rs. 1,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,140,"Floater : Rs. 5,00,000 X Rs. 1,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,141,"Individual : Rs. 5,00,000 X Rs. 2,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,142,"Floater : Rs. 5,00,000 X Rs. 2,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,143,"Individual : Rs. 5,00,000 X Rs. 3,00,000---OPD 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,144,"Floater : Rs. 5,00,000 X Rs. 3,00,000---OPD 1000"
-30006002,Group Secure(IIB casa)2,004,"Individual : Rs. 1,00,00,000"
-4014,Self-inflicted injury,001,"$ 7,500"
-4015,HIV /AIDS Cover,001,"$ 7,500"
-4016,Adventure Sports Injury,001,"$ 50,000"
-4016,Adventure Sports Injury,002,"$ 100,000"
-4016,Adventure Sports Injury,003,"$ 300,000"
-4016,Adventure Sports Injury,004,"$ 500,000"
-4016,Adventure Sports Injury,005,"$ 1,000,000"
-4021,Maternity and New Born Cover,001,"$ 1,000"
-4021,Maternity and New Born Cover,002,"$ 5,000"
-4021,Maternity and New Born Cover,003,"$ 50,000"
-4021,Maternity and New Born Cover,004,"$ 100,000"
-4021,Maternity and New Born Cover,005,"$ 300,000"
-4021,Maternity and New Born Cover,006,"$ 500,000"
-4021,Maternity and New Born Cover,007,"$ 1,000,000"
-4022,Life threatning Medical Condition,001,"$ 50,000"
-4022,Life threatning Medical Condition,002,"$ 100,000"
-4022,Life threatning Medical Condition,003,"$ 300,000"
-4022,Life threatning Medical Condition,004,"$ 500,000"
-4022,Life threatning Medical Condition,005,"$ 1,000,000"
+10003008,Group Care Scheme for Marsh,001,Individual : Rs. 200000
+10003008,Group Care Scheme for Marsh,002,Floater : Rs. 200000
+10003008,Group Care Scheme for Marsh,003,Individual : Rs. 300000
+10003008,Group Care Scheme for Marsh,004,Floater : Rs. 300000
+10003008,Group Care Scheme for Marsh,005,Individual : Rs. 400000
+12001002,Care Freedom - 20 Percent Co-Pay,101,Individual : Rs. 200000 X Rs. 50000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,102,Floater : Rs. 200000 X Rs. 50000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,103,Individual : Rs. 200000 X Rs. 100000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,104,Floater : Rs. 200000 X Rs. 100000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,105,Individual : Rs. 200000 X Rs. 200000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,106,Floater : Rs. 200000 X Rs. 200000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,107,Individual : Rs. 200000 X Rs. 300000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,108,Floater : Rs. 200000 X Rs. 300000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,109,Individual : Rs. 300000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,110,Floater : Rs. 300000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,111,Individual : Rs. 300000 X Rs. 25,000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,112,Floater : Rs. 300000 X Rs. 25,000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,113,Individual : Rs. 300000 X Rs. 50000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,114,Floater : Rs. 300000 X Rs. 50000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,115,Individual : Rs. 300000 X Rs. 100000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,116,Floater : Rs. 300000 X Rs. 100000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,117,Individual : Rs. 300000 X Rs. 200000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,118,Floater : Rs. 300000 X Rs. 200000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,119,Individual : Rs. 300000 X Rs. 300000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,120,Floater : Rs. 300000 X Rs. 300000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,121,Individual : Rs. 400000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,122,Floater : Rs. 400000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,123,Individual : Rs. 400000 X Rs. 25,000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,124,Floater : Rs. 400000 X Rs. 25,000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,125,Individual : Rs. 400000 X Rs. 50000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,126,Floater : Rs. 400000 X Rs. 50000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,127,Individual : Rs. 400000 X Rs. 100000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,128,Floater : Rs. 400000 X Rs. 100000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,129,Individual : Rs. 400000 X Rs. 200000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,130,Floater : Rs. 400000 X Rs. 200000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,131,Individual : Rs. 400000 X Rs. 300000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,132,Floater : Rs. 400000 X Rs. 300000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,133,Individual : Rs. 500000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,134,Floater : Rs. 500000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,135,Individual : Rs. 500000 X Rs. 25,000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,047,Individual : Rs. 500000 X Rs. 300000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,048,Floater : Rs. 500000 X Rs. 300000---OPD 300
+12001002,Care Freedom - 20 Percent Co-Pay,049,Individual : Rs. 200000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,050,Floater : Rs. 200000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,051,Individual : Rs. 200000 X Rs. 25,000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,052,Floater : Rs. 200000 X Rs. 25,000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,053,Individual : Rs. 200000 X Rs. 50000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,054,Floater : Rs. 200000 X Rs. 50000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,055,Individual : Rs. 200000 X Rs. 100000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,056,Floater : Rs. 200000 X Rs. 100000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,057,Individual : Rs. 200000 X Rs. 200000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,058,Floater : Rs. 200000 X Rs. 200000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,059,Individual : Rs. 200000 X Rs. 300000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,060,Floater : Rs. 200000 X Rs. 300000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,061,Individual : Rs. 300000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,062,Floater : Rs. 300000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,063,Individual : Rs. 300000 X Rs. 25,000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,064,Floater : Rs. 300000 X Rs. 25,000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,065,Individual : Rs. 300000 X Rs. 50000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,066,Floater : Rs. 300000 X Rs. 50000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,067,Individual : Rs. 300000 X Rs. 100000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,068,Floater : Rs. 300000 X Rs. 100000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,069,Individual : Rs. 300000 X Rs. 200000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,070,Floater : Rs. 300000 X Rs. 200000---OPD 600
+12001002,Care Freedom - 20 Percent Co-Pay,136,Floater : Rs. 500000 X Rs. 25,000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,137,Individual : Rs. 500000 X Rs. 50000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,138,Floater : Rs. 500000 X Rs. 50000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,139,Individual : Rs. 500000 X Rs. 100000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,140,Floater : Rs. 500000 X Rs. 100000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,141,Individual : Rs. 500000 X Rs. 200000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,142,Floater : Rs. 500000 X Rs. 200000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,143,Individual : Rs. 500000 X Rs. 300000---OPD 1000
+12001002,Care Freedom - 20 Percent Co-Pay,144,Floater : Rs. 500000 X Rs. 300000---OPD 1000
+30006002,Group Secure(IIB casa)2,004,Individual : Rs. 10000000
+4014,Self-inflicted injury,001,$ 7500
+4015,HIV /AIDS Cover,001,$ 7500
+4016,Adventure Sports Injury,001,$ 50000
+4016,Adventure Sports Injury,002,$ 100000
+4016,Adventure Sports Injury,003,$ 300000
+4016,Adventure Sports Injury,004,$ 500000
+4016,Adventure Sports Injury,005,$ 1000000
+4021,Maternity and New Born Cover,001,$ 1000
+4021,Maternity and New Born Cover,002,$ 5000
+4021,Maternity and New Born Cover,003,$ 50000
+4021,Maternity and New Born Cover,004,$ 100000
+4021,Maternity and New Born Cover,005,$ 300000
+4021,Maternity and New Born Cover,006,$ 500000
+4021,Maternity and New Born Cover,007,$ 1000000
+4022,Life threatning Medical Condition,001,$ 50000
+4022,Life threatning Medical Condition,002,$ 100000
+4022,Life threatning Medical Condition,003,$ 300000
+4022,Life threatning Medical Condition,004,$ 500000
+4022,Life threatning Medical Condition,005,$ 1000000
 10003022,Group Care(Scheme 1 Kangra Bank),001,Rs. 50000 : Individual
 10003022,Group Care(Scheme 1 Kangra Bank),002,Rs. 50000 : Floater
-30001024,Group Secure(Scheme 3 Kangra Bank),001,Rs 200000 : Individual
+30001024,Group Secure(Scheme 3 Kangra Bank),001,200000
 20001004,Assure 4,001,1 Lac
 20001004,Assure 4,002,2 Lacs
 20001004,Assure 4,003,3 Lacs
 20001004,Assure 4,004,4 Lacs
 30001023,Group Secure(Scheme 1 Allahabad Gramin Bank),001,Rs. 50000 : Individual
-30001025,Group Secure(Scheme 3 Allahabad Gramin Bank),001,Rs 200000 : Individual
+30001025,Group Secure(Scheme 3 Allahabad Gramin Bank),001,200000
 30003003,Group Secure(Derby),001,Individual: 2 Lac
 30003003,Group Secure(Derby),002,Individual: 5 Lac
-10003008,Group Care Scheme for Marsh,006,"Floater : Rs. 4,00,000"
-10003008,Group Care Scheme for Marsh,007,"Individual : Rs. 5,00,000"
-10003008,Group Care Scheme for Marsh,008,"Floater : Rs. 5,00,000"
-10003008,Group Care Scheme for Marsh,009,"Individual : Rs. 7,00,000"
-10003008,Group Care Scheme for Marsh,010,"Floater : Rs. 7,00,000"
-10003008,Group Care Scheme for Marsh,011,"Individual : Rs. 10,00,000"
-10003008,Group Care Scheme for Marsh,012,"Floater : Rs. 10,00,000"
+10003008,Group Care Scheme for Marsh,006,Floater : Rs. 400000
+10003008,Group Care Scheme for Marsh,007,Individual : Rs. 500000
+10003008,Group Care Scheme for Marsh,008,Floater : Rs. 500000
+10003008,Group Care Scheme for Marsh,009,Individual : Rs. 700000
+10003008,Group Care Scheme for Marsh,010,Floater : Rs. 700000
+10003008,Group Care Scheme for Marsh,011,Individual : Rs. 1000000
+10003008,Group Care Scheme for Marsh,012,Floater : Rs. 1000000
 10003026,Group Care(Scheme for DNS Bank - Plan 2),001,INDIVIDUAL : 2 Lac
 10003026,Group Care(Scheme for DNS Bank - Plan 2),002,FLOATER : 2 Lac
 10003026,Group Care(Scheme for DNS Bank - Plan 2),003,INDIVIDUAL : 3 Lac
 10003026,Group Care(Scheme for DNS Bank - Plan 2),004,FLOATER : 3 Lac
 10003026,Group Care(Scheme for DNS Bank - Plan 2),005,INDIVIDUAL : 4 Lac
-10003026,Group Care(Scheme for DNS Bank - Plan 2),006,FLOATER : 4 Lc
+10003026,Group Care(Scheme for DNS Bank - Plan 2),006,FLOATER : 4 Lac
 10003026,Group Care(Scheme for DNS Bank - Plan 2),007,INDIVIDUAL : 5 Lac
 10003026,Group Care(Scheme for DNS Bank - Plan 2),008,FLOATER : 5 Lac
 10003026,Group Care(Scheme for DNS Bank - Plan 2),009,INDIVIDUAL : 7 Lac
@@ -835,16 +835,16 @@
 10003030,Group Care(Scheme for NFC),002,2 Lac : Floater
 30001028,Group Secure (Scheme for NFC),001,1 Lac : Individual
 10003033,Group Care(Scheme for ISFL),001,2 Lac : Ind
-10003021,Group Care(scheme for JSB),001,Rs 3 Lac : Individual
-10003021,Group Care(scheme for JSB),002,Rs 3 Lac : Floater
-10003021,Group Care(scheme for JSB),003,Rs 4 Lac : Individual
-10003021,Group Care(scheme for JSB),004,Rs 4 Lac : Floater
-10003021,Group Care(scheme for JSB),005,Rs 5 Lac : Individual
-10003021,Group Care(scheme for JSB),006,Rs 5 Lac : Floater
-10003021,Group Care(scheme for JSB),007,Rs 7 Lac : Individual
-10003021,Group Care(scheme for JSB),008,Rs 7 Lac : Floater
-10003021,Group Care(scheme for JSB),009,Rs 10 Lac : Individual
-10003021,Group Care(scheme for JSB),010,Rs 10 Lac : Floater
+10003021,Group Care(scheme for JSB),001,3 Lac : Individual
+10003021,Group Care(scheme for JSB),002,3 Lac : Floater
+10003021,Group Care(scheme for JSB),003,4 Lac : Individual
+10003021,Group Care(scheme for JSB),004,4 Lac : Floater
+10003021,Group Care(scheme for JSB),005,5 Lac : Individual
+10003021,Group Care(scheme for JSB),006,5 Lac : Floater
+10003021,Group Care(scheme for JSB),007,7 Lac : Individual
+10003021,Group Care(scheme for JSB),008,7 Lac : Floater
+10003021,Group Care(scheme for JSB),009,10 Lac : Individual
+10003021,Group Care(scheme for JSB),010,10 Lac : Floater
 10003009,Group Care (Scheme 2 - IIB),009,10 Lac : Individual
 10003009,Group Care (Scheme 2 - IIB),010,10 Lac : Floater
 30001022,Group Secure(Scheme 1 Kangra Bank),001,Rs. 50000 : Individual
@@ -877,16 +877,16 @@
 10003035,Group Care(Scheme for SCUF),003,3 Lac : Floater
 10003035,Group Care(Scheme for SCUF),002,2 Lac : Floater
 30001032,Group Secure(Scheme for MFL),001,2 Lac : Individual
-10003027,Group Care(Paisa Bazaar),001,Individual: 10K OPD
-10003027,Group Care(Paisa Bazaar),015,Individual: 45K OPD
-10003027,Group Care(Paisa Bazaar),017,Individual: 50K OPD
-10003027,Group Care(Paisa Bazaar),013,Individual: 40K OPD
-10003027,Group Care(Paisa Bazaar),011,Individual: 35K OPD
-30001036,Group Secure(Vakrangee),001,Individual:1 Lac
-30001036,Group Secure(Vakrangee),005,Individual:10 Lac
-30001036,Group Secure(Vakrangee),004,Individual:5 Lac
-30001036,Group Secure(Vakrangee),003,Individual:3 Lac
-30001036,Group Secure(Vakrangee),002,Individual:2 Lac
+10003027,Group Care(Paisa Bazaar),001,10000
+10003027,Group Care(Paisa Bazaar),015,45000
+10003027,Group Care(Paisa Bazaar),017,50000
+10003027,Group Care(Paisa Bazaar),013,40000
+10003027,Group Care(Paisa Bazaar),011,35000
+30001036,Group Secure(Vakrangee),001,100000
+30001036,Group Secure(Vakrangee),005,1000000
+30001036,Group Secure(Vakrangee),004,500000
+30001036,Group Secure(Vakrangee),003,300000
+30001036,Group Secure(Vakrangee),002,200000
 10003048,Group Care(Health Suraksha),001,Ind: 3 Lac
 10003048,Group Care(Health Suraksha),010,Floater: 10 Lac
 10003048,Group Care(Health Suraksha),009,Ind: 10 Lac
@@ -900,9 +900,9 @@
 30001048,Group Secure(Scheme 1 Rural),001,Ind: 50K
 30001051,Group Secure(RBL),001,Individual : 5 Lac
 30001052,Group Secure(AU Financer),001,Individual : 1 Lac to 1 Cr
-40001033,Group Explore Avanse Silver Ex US/CAN,001,Individual : $50K
-40001033,Group Explore Avanse Silver Ex US/CAN,002,Individual : $1Lac
-40001033,Group Explore Avanse Silver Ex US/CAN,003,Individual : $3Lac
+40001033,Group Explore Avanse Silver Ex US/CAN,001,50000
+40001033,Group Explore Avanse Silver Ex US/CAN,002,100000
+40001033,Group Explore Avanse Silver Ex US/CAN,003,300000
 20001008,Assure(Neogrowth),028,Individual : 3 Cr
 10003066,Group Care(Adarsh),008,Floater : 7 Lac
 10003066,Group Care(Adarsh),009,Individual : 10 Lac
@@ -911,21 +911,21 @@
 10003060,Group Care(Ohealer),002,Floater : 3 Lac
 10003060,Group Care(Ohealer),003,Individual : 5 Lac
 10003060,Group Care(Ohealer),004,Floater : 5 Lac
-30001056,Group Secure(Scheme for Cash Kumar),001,Individual : 25K
-30001056,Group Secure(Scheme for Cash Kumar),002,Individual : 50K
-30001056,Group Secure(Scheme for Cash Kumar),003,Individual : 1Lac
-30001056,Group Secure(Scheme for Cash Kumar),004,Individual : 1.5Lac
-30001056,Group Secure(Scheme for Cash Kumar),005,Individual : 2Lac
-30001056,Group Secure(Scheme for Cash Kumar),006,Individual : 5Lac
-40001038,Group Explore(Trips Bank)-Plan 1,001,"USD 25,000 : Individual"
-40001038,Group Explore(Trips Bank)-Plan 1,002,"USD 25,000 : Individual w/s"
-40001039,Group Explore(Trips Bank)-Plan 2,001,"USD 50,000 : Individual"
-40001039,Group Explore(Trips Bank)-Plan 2,002,"USD 50,000 : Individual w/s"
-40001039,Group Explore(Trips Bank)-Plan 2,003,"USD 100,000 : Individual"
-40001039,Group Explore(Trips Bank)-Plan 2,004,"USD 100,000 : Individual w/s"
-40001040,Group Explore(Trips Bank)-Plan 3,001,"USD 50,000 : Individual"
-40001040,Group Explore(Trips Bank)-Plan 3,002,"USD 50,000 : Individual w/s"
-40001040,Group Explore(Trips Bank)-Plan 3,003,"USD 100,000 : Individual"
+30001056,Group Secure(Scheme for Cash Kumar),001,25000
+30001056,Group Secure(Scheme for Cash Kumar),002,50000
+30001056,Group Secure(Scheme for Cash Kumar),003,100000
+30001056,Group Secure(Scheme for Cash Kumar),004,150000
+30001056,Group Secure(Scheme for Cash Kumar),005,200000
+30001056,Group Secure(Scheme for Cash Kumar),006,500000
+40001038,Group Explore(Trips Bank)-Plan 1,001,USD 25000 : Individual
+40001038,Group Explore(Trips Bank)-Plan 1,002,USD 25000 : Individual w/s
+40001039,Group Explore(Trips Bank)-Plan 2,001,USD 50000 : Individual
+40001039,Group Explore(Trips Bank)-Plan 2,002,USD 50000 : Individual w/s
+40001039,Group Explore(Trips Bank)-Plan 2,003,USD 100000 : Individual
+40001039,Group Explore(Trips Bank)-Plan 2,004,USD 100000 : Individual w/s
+40001040,Group Explore(Trips Bank)-Plan 3,001,USD 50000 : Individual
+40001040,Group Explore(Trips Bank)-Plan 3,002,USD 50000 : Individual w/s
+40001040,Group Explore(Trips Bank)-Plan 3,003,USD 100000 : Individual
 10003001,Care (For IndusInd Bank),055,V2: 2 Lac : Individual
 10003001,Care (For IndusInd Bank),056,V2: 2 Lac : Floater
 10003001,Care (For IndusInd Bank),059,V2: 3 Lac : Individual
@@ -962,15 +962,15 @@
 10003001,Care (For IndusInd Bank),102,V2: 60 Lac : Floater
 10003001,Care (For IndusInd Bank),103,V2: 75 Lac : Individual
 10003001,Care (For IndusInd Bank),104,V2: 75 Lac : Floater
-10003041,Group Care(Vakrangee),001,Individual:1 Lac
-10003041,Group Care(Vakrangee),004,Floater:3 Lac
-10003041,Group Care(Vakrangee),003,Individual:3 Lac
-10003041,Group Care(Vakrangee),002,Floater:1 Lac
-30001042,Group Secure(PetrolBunk),001,Individual : 50 K
+10003041,Group Care(Vakrangee),001,100000
+10003041,Group Care(Vakrangee),004,300000
+10003041,Group Care(Vakrangee),003,300000
+10003041,Group Care(Vakrangee),002,100000
+30001042,Group Secure(PetrolBunk),001,50000
 10001101,Care,149,V2: 4 Lac X 10K Individual
 10001101,Care,150,V2: 4 Lac x 10K Floater
-10003043,Group Care(Essel Finance WZ),001,Individual : 2Lac
-10003043,Group Care(Essel Finance WZ),002,Floater : 2Lac
+10003043,Group Care(Essel Finance WZ),001,200000
+10003043,Group Care(Essel Finance WZ),002,200000
 10003001,Care (For IndusInd Bank),105,V2: 1 Cr : Individual
 10003001,Care (For IndusInd Bank),106,V2: 1 Cr : Floater
 10003001,Care (For IndusInd Bank),109,V2: 2 Cr : Individual
@@ -1008,8 +1008,8 @@
 10001101,Care,070,V2: 5.5 Lac : Floater
 10001101,Care,073,V2: 6.5 Lac : Individual
 10001101,Care,074,V2: 6.5 Lac : Floater
-10003052,Group Care(Scheme 1 Rural),003,Ind: 1 Lac
-10003052,Group Care(Scheme 1 Rural),004,Floater: 1 Lac
+10003052,Group Care(Scheme 1 Rural),003,100000
+10003052,Group Care(Scheme 1 Rural),004,100000
 10003054,Group Care (RBL),001,Individual : 5 Lac
 10003054,Group Care (RBL),002,Floater : 5 Lac
 10003054,Group Care (RBL),003,Individual : 10 Lac
@@ -1050,32 +1050,32 @@
 10001103,CARE for Employees,102,V2: 60 Lac : Floater
 40001034,Group Explore Avanse Gold WW,003,Individual : $3Lac
 40001035,Group Explore Avanse Gold Ex US/CAN,001,Individual : $50K
-40001036,Group Explore Avanse Titanium WW,001,Individual : $50K
-40001036,Group Explore Avanse Titanium WW,002,Individual : $1Lac
-40001036,Group Explore Avanse Titanium WW,003,Individual : $3Lac
-40001036,Group Explore Avanse Titanium WW,004,Individual : $5Lac
-40001036,Group Explore Avanse Titanium WW,005,Individual : $10Lac
-40001037,Group Explore Avanse Titanium Ex US/CAN,001,Individual : $50K
-40001037,Group Explore Avanse Titanium Ex US/CAN,002,Individual : $1Lac
-40001037,Group Explore Avanse Titanium Ex US/CAN,003,Individual : $3Lac
-40001037,Group Explore Avanse Titanium Ex US/CAN,004,Individual : $5Lac
-40001037,Group Explore Avanse Titanium Ex US/CAN,005,Individual : $10Lac
-10003042,Group Care(Ram Info),001,Individual:50 K
-10003042,Group Care(Ram Info),004,Floater:1 LAC
-10003042,Group Care(Ram Info),003,Individual:1 LAC
-10003042,Group Care(Ram Info),002,Floater:50 K
-10003010,Group Care( Scheme 2 for Fortis),005,Individual: Rs. 2 Lac Revised
-10003010,Group Care( Scheme 2 for Fortis),006,Floater: Rs. 2 Lac Revised
-10003010,Group Care( Scheme 2 for Fortis),007,Individual: Rs. 5 Lac Revised
-10003010,Group Care( Scheme 2 for Fortis),008,Floaterl: Rs. 5 Lac Revised
-10003010,Group Care( Scheme 2 for Fortis),009,Individual: Rs. 1 Lac
-10003010,Group Care( Scheme 2 for Fortis),010,Floater: Rs. 1 Lac
+40001036,Group Explore Avanse Titanium WW,001,Individual : $50000
+40001036,Group Explore Avanse Titanium WW,002,Individual : $100000
+40001036,Group Explore Avanse Titanium WW,003,Individual : $300000
+40001036,Group Explore Avanse Titanium WW,004,Individual : $500000
+40001036,Group Explore Avanse Titanium WW,005,Individual : $1000000
+40001037,Group Explore Avanse Titanium Ex US/CAN,001,Individual : $50000
+40001037,Group Explore Avanse Titanium Ex US/CAN,002,Individual : $100000
+40001037,Group Explore Avanse Titanium Ex US/CAN,003,Individual : $300000
+40001037,Group Explore Avanse Titanium Ex US/CAN,004,Individual : $500000
+40001037,Group Explore Avanse Titanium Ex US/CAN,005,Individual : $1000000
+10003042,Group Care(Ram Info),001,50000
+10003042,Group Care(Ram Info),004,100000
+10003042,Group Care(Ram Info),003,100000
+10003042,Group Care(Ram Info),002,50000
+10003010,Group Care( Scheme 2 for Fortis),005,200000
+10003010,Group Care( Scheme 2 for Fortis),006,200000
+10003010,Group Care( Scheme 2 for Fortis),007,500000
+10003010,Group Care( Scheme 2 for Fortis),008,500000
+10003010,Group Care( Scheme 2 for Fortis),009,100000
+10003010,Group Care( Scheme 2 for Fortis),010,100000
 30003004,Group Secure(Centrum),001,Individual : 5 Lac
 30001045,Group Secure(Scheme for JBL),001,Individual : 4.48 Lac
-10003052,Group Care(Scheme 1 Rural),001,Ind: 50K
-10003052,Group Care(Scheme 1 Rural),002,Floater: 50K
+10003052,Group Care(Scheme 1 Rural),001,50000
+10003052,Group Care(Scheme 1 Rural),002,50000
 20001007,Group Assure (Srei),001,Individual : 1 Lac to 3 Cr
-30001049,Group Secure(E-Commerce),001,Individual : 25 K
+30001049,Group Secure(E-Commerce),001,25000
 30001049,Group Secure(E-Commerce),002,Individual : 1 Lac
 30001049,Group Secure(E-Commerce),003,Individual : 2 Lac
 30001049,Group Secure(E-Commerce),004,Individual : 3 Lac
@@ -1124,17 +1124,17 @@
 10003055,Group Care(Payworld),003,Individual : 3 Lac
 10003055,Group Care(Payworld),004,Floater : 3 Lac
 30001051,Group Secure(RBL),002,Individual : 10 Lac
-40001032,Group Explore Avanse Silver WW,001,Individual : $50K
+40001032,Group Explore Avanse Silver WW,001,Individual : $50 K
 40001032,Group Explore Avanse Silver WW,002,Individual : $1Lac
 40001032,Group Explore Avanse Silver WW,003,Individual : $3Lac
 20001008,Assure(Neogrowth),017,Individual : 45 Lac
 20001008,Assure(Neogrowth),018,Individual : 50 Lac
 30001053,Group Secure Credit Protection,001,Individual : 5 Lac
 30001053,Group Secure Credit Protection,002,Individual : 10 Lac
-10001101,Care,026,"Floater : Rs. 7,00,000"
+10001101,Care,026,Floater : Rs. 700000
 10003054,Group Care (RBL),007,Individual : 5 Lac With S/L
-10003010,Group Care( Scheme 2 for Fortis),011,Individual : Rs. 10 Lac
-10003010,Group Care( Scheme 2 for Fortis),012,Floater : Rs. 10 Lac
+10003010,Group Care( Scheme 2 for Fortis),011,1000000
+10003010,Group Care( Scheme 2 for Fortis),012,1000000
 10003058,Group Care AHL(Manibhavnam),001,Individual : 1 Lac
 10003058,Group Care AHL(Manibhavnam),002,Floater : 1 Lac
 10003058,Group Care AHL(Manibhavnam),003,Individual : 2 Lac
@@ -1147,9 +1147,9 @@
 10003058,Group Care AHL(Manibhavnam),010,Floater : 5 Lac
 30001054,Group Secure(Apna Sahakari Bank),001,Individual: 5 Lac
 30001054,Group Secure(Apna Sahakari Bank),002,Individual: 10 Lac
-30001038,Group Secure(Ram Info),001,Individual:2 Lac
-30001038,Group Secure(Ram Info),003,Individual:4 Lac
-30001038,Group Secure(Ram Info),002,Individual:3 Lac
+30001038,Group Secure(Ram Info),001,200000
+30001038,Group Secure(Ram Info),003,400000
+30001038,Group Secure(Ram Info),002,300000
 30001044,Secure,001,Individual : 1.5 Lac
 10001101,Care,105,V2: 1 Cr : Individual
 10001101,Care,106,V2: 1 Cr : Floater
@@ -1167,11 +1167,11 @@
 10003044,Group Care (Avanse),004,Floater: 5 Lac
 10003044,Group Care (Avanse),003,Ind: 5 Lac
 10003044,Group Care (Avanse),002,Floater: 3 lac
-40001001,Explore Asia,002,"Individual : USD 50,000"
-40001015,Explore Europe(without sublimit),001,"Individual : EURO 30,000"
-40001029,Student Explore Ultra - Ex US and Canada,005,"$ 1,000,000 medical expenses - MAT 1000"
-12001002,Care Freedom - 20 Percent Co-Pay,002,"Floater : Rs. 2,00,000---OPD 300"
-40001028,Student Explore Super - Ex US and Canada,004,"$ 500,000 medical expenses - MAT 1000"
+40001001,Explore Asia,002,Individual : USD 50000
+40001015,Explore Europe(without sublimit),001,Individual : EURO 30000
+40001029,Student Explore Ultra - Ex US and Canada,005,$ 1000000 medical expenses - MAT 1000
+12001002,Care Freedom - 20 Percent Co-Pay,002,Floater : Rs. 200000---OPD 300
+40001028,Student Explore Super - Ex US and Canada,004,$ 500000 medical expenses - MAT 1000
 1202,Good Health Plus,004,Floater : OPD Rs. 600 Per Visit
 10003001,Care (For IndusInd Bank),022,60 Lac : Floater
 30003005,Group Secure(Affinity),001,Individual: 5 Lac
@@ -1230,4 +1230,4 @@
 10003001,Care (For IndusInd Bank),072,V2: 6 Lac : Floater
 10003001,Care (For IndusInd Bank),079,V2: 8 Lac : Individual
 10003001,Care (For IndusInd Bank),080,V2: 8 Lac : Floater
-40001040,Group Explore(Trips Bank)-Plan 3,004,"USD 100,000 : Individual w/s"
+40001040,Group Explore(Trips Bank)-Plan 3,004,USD 100000 : Individual w/s
